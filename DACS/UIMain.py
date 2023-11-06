@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from random import random, randint
 
 # Form implementation generated from reading ui file 'UIv2.ui'
 #
@@ -9,10 +10,17 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
 from PyQt5.QtSql import QSqlDatabase, QSqlQuery
+from PyQt5.QtWidgets import QVBoxLayout, QPushButton
+from matplotlib.figure import Figure
+from matplotlib.ticker import MaxNLocator
 from unidecode import unidecode
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import csv
+import matplotlib.pyplot as plt
+import numpy as np
 import connectDB
 import UIv2
 import crawlData
@@ -27,11 +35,11 @@ tinh = "namdinh"
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(832, 841)
+        MainWindow.resize(1920, 1080)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
-        self.label_5.setGeometry(QtCore.QRect(450, 20, 361, 41))
+        self.label_5.setGeometry(QtCore.QRect(550, 20, 501, 41))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -56,7 +64,7 @@ class Ui_MainWindow(object):
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(10, 237, 250, 51))
+        self.pushButton.setGeometry(QtCore.QRect(10, 240, 321, 51))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -67,10 +75,10 @@ class Ui_MainWindow(object):
 "")
         self.pushButton.setObjectName("pushButton")
         self.comboBox_2 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_2.setGeometry(QtCore.QRect(110, 120, 281, 22))
+        self.comboBox_2.setGeometry(QtCore.QRect(110, 120, 411, 22))
         self.comboBox_2.setObjectName("comboBox_2")
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(570, 237, 250, 51))
+        self.pushButton_3.setGeometry(QtCore.QRect(730, 240, 321, 51))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -88,20 +96,20 @@ class Ui_MainWindow(object):
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
         self.spinBox = QtWidgets.QSpinBox(self.centralwidget)
-        self.spinBox.setGeometry(QtCore.QRect(540, 200, 42, 22))
+        self.spinBox.setGeometry(QtCore.QRect(750, 200, 81, 22))
         self.spinBox.setObjectName("spinBox")
         self.comboBox_3 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_3.setGeometry(QtCore.QRect(110, 160, 281, 22))
+        self.comboBox_3.setGeometry(QtCore.QRect(110, 160, 411, 22))
         self.comboBox_3.setObjectName("comboBox_3")
         self.spinBox_2 = QtWidgets.QSpinBox(self.centralwidget)
-        self.spinBox_2.setGeometry(QtCore.QRect(750, 200, 42, 22))
+        self.spinBox_2.setGeometry(QtCore.QRect(971, 200, 81, 22))
         self.spinBox_2.setObjectName("spinBox_2")
         self.horizontalSlider = QtWidgets.QSlider(self.centralwidget)
-        self.horizontalSlider.setGeometry(QtCore.QRect(540, 120, 271, 22))
+        self.horizontalSlider.setGeometry(QtCore.QRect(650, 120, 401, 22))
         self.horizontalSlider.setOrientation(QtCore.Qt.Horizontal)
         self.horizontalSlider.setObjectName("horizontalSlider")
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
-        self.label_6.setGeometry(QtCore.QRect(450, 120, 81, 16))
+        self.label_6.setGeometry(QtCore.QRect(550, 120, 81, 16))
         font = QtGui.QFont()
         font.setBold(True)
         font.setUnderline(False)
@@ -110,10 +118,10 @@ class Ui_MainWindow(object):
         self.label_6.setFont(font)
         self.label_6.setObjectName("label_6")
         self.comboBox_4 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_4.setGeometry(QtCore.QRect(540, 80, 271, 22))
+        self.comboBox_4.setGeometry(QtCore.QRect(650, 80, 401, 22))
         self.comboBox_4.setObjectName("comboBox_4")
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(290, 237, 250, 51))
+        self.pushButton_4.setGeometry(QtCore.QRect(370, 240, 321, 51))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -124,7 +132,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButton_4.setObjectName("pushButton_4")
         self.comboBox = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox.setGeometry(QtCore.QRect(110, 80, 281, 22))
+        self.comboBox.setGeometry(QtCore.QRect(110, 80, 411, 22))
         self.comboBox.setObjectName("comboBox")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
@@ -190,7 +198,7 @@ class Ui_MainWindow(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(20, 20, 371, 41))
+        self.label.setGeometry(QtCore.QRect(20, 20, 501, 41))
         font = QtGui.QFont()
         font.setPointSize(12)
         font.setBold(True)
@@ -215,7 +223,7 @@ class Ui_MainWindow(object):
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
         self.label_7 = QtWidgets.QLabel(self.centralwidget)
-        self.label_7.setGeometry(QtCore.QRect(450, 160, 91, 16))
+        self.label_7.setGeometry(QtCore.QRect(550, 160, 91, 16))
         font = QtGui.QFont()
         font.setBold(True)
         font.setUnderline(False)
@@ -224,11 +232,11 @@ class Ui_MainWindow(object):
         self.label_7.setFont(font)
         self.label_7.setObjectName("label_7")
         self.horizontalSlider_2 = QtWidgets.QSlider(self.centralwidget)
-        self.horizontalSlider_2.setGeometry(QtCore.QRect(540, 160, 271, 22))
+        self.horizontalSlider_2.setGeometry(QtCore.QRect(650, 160, 401, 22))
         self.horizontalSlider_2.setOrientation(QtCore.Qt.Horizontal)
         self.horizontalSlider_2.setObjectName("horizontalSlider_2")
         self.label_10 = QtWidgets.QLabel(self.centralwidget)
-        self.label_10.setGeometry(QtCore.QRect(450, 80, 91, 16))
+        self.label_10.setGeometry(QtCore.QRect(550, 80, 91, 16))
         font = QtGui.QFont()
         font.setBold(True)
         font.setUnderline(False)
@@ -238,14 +246,14 @@ class Ui_MainWindow(object):
         self.label_10.setObjectName("label_10")
         
         self.tableView = QtWidgets.QTableView(MainWindow)
-        self.tableView.setGeometry(QtCore.QRect(10, 330, 811, 501))
+        self.tableView.setGeometry(QtCore.QRect(10, 330, 1041, 650))
         self.tableView.viewport().setProperty("cursor", QtGui.QCursor(QtCore.Qt.ArrowCursor))
         self.tableView.setObjectName("tableView")
         self.model = QtGui.QStandardItemModel()
         self.tableView.setModel(self.model)
 
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
-        self.label_9.setGeometry(QtCore.QRect(660, 200, 81, 16))
+        self.label_9.setGeometry(QtCore.QRect(880, 200, 81, 16))
         font = QtGui.QFont()
         font.setBold(True)
         font.setUnderline(False)
@@ -254,7 +262,7 @@ class Ui_MainWindow(object):
         self.label_9.setFont(font)
         self.label_9.setObjectName("label_9")
         self.label_8 = QtWidgets.QLabel(self.centralwidget)
-        self.label_8.setGeometry(QtCore.QRect(450, 200, 81, 16))
+        self.label_8.setGeometry(QtCore.QRect(650, 200, 81, 16))
         font = QtGui.QFont()
         font.setBold(True)
         font.setUnderline(False)
@@ -276,15 +284,19 @@ class Ui_MainWindow(object):
         self.actionL_u_tr.setObjectName("actionL_u_tr")
         self.menufile.addAction(self.actionL_u_tr)
         self.menubar.addAction(self.menufile.menuAction())
-        
-        self.pushButton.clicked.connect(self.load_data_from_csv)
+
+        layout = QVBoxLayout(self.centralwidget)
+
+        layout.addWidget(self.chart2())
+        layout.addWidget(self.chart1())
+
+        self.pushButton.clicked.connect(self.timKiem)
         self.pushButton_4.clicked.connect(self.get_selected_row_data)
         self.actionL_u_tr.triggered.connect(self.open_luu_tru_window)
         self.pushButton_3.clicked.connect(self.crawlData)
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
     def open_luu_tru_window(self):
         self.Form = QtWidgets.QWidget()
         self.ui = UIv2.Ui_Form()
@@ -372,6 +384,9 @@ class Ui_MainWindow(object):
         self.comboBox.setItemText(60, _translate("MainWindow", "Vĩnh Long"))
         self.comboBox.setItemText(61, _translate("MainWindow", "Vĩnh Phúc"))
         self.comboBox.setItemText(62, _translate("MainWindow", "Yên Bái"))
+
+    def timKiem(self):
+        self.load_data_from_csv()
 
     def crawlData(self):
         self.indexTinh = self.comboBox.currentIndex()+1
@@ -512,7 +527,99 @@ class Ui_MainWindow(object):
                 print(row)
                 writer.writerow(row)        
 
+    def chart1(self):
+        x = []
+        y = []
+        try:
+            tinh = unidecode(self.comboBox.currentText().replace(' ', '').lower())
+        except:
+            tinh = "hanoi"
+        if tinh == " " or tinh == "":
+            tinh = "hanoi"
 
+        connection = connectDB.connect()
+        cursor = connection.cursor()
+        set_value = f"""
+                   UPDATE {tinh}
+                   SET price_clean =
+                       CASE
+                           WHEN Price LIKE '% tỷ' THEN CAST(SUBSTRING_INDEX(Price, ' tỷ', 1) AS DECIMAL(10,2))
+                           WHEN Price LIKE '%triệu%' and CAST(SUBSTRING_INDEX(Price, ' triệu ', 1) AS DECIMAL(10,2)) >= 100 THEN round(SUBSTRING_INDEX(Price, 'triệu', 1)/1000,2)
+                           WHEN Price LIKE '% tr' and CAST(SUBSTRING_INDEX(Price, ' tr ', 1) AS DECIMAL(10,2)) >= 100 THEN round(SUBSTRING_INDEX(Price, 'tr', 1)/1000, 2)
+                           ELSE 0
+                       END;
+                   """
+        cursor.execute(set_value)
+        avg_price = f"""select distinct Month as `month`, Year, concat(`month`, "/", Year), round(avg(price_clean),2)
+                        from {tinh}
+                        where price_clean > 0
+                        group by `month`, Year;"""
+        cursor.execute(avg_price)
+        data = cursor.fetchall()
+        print(data)
+        for i in data:
+            x.append(i[2])
+            y.append(i[3])
+        connection.close()
+        x_locate, y_locate, width, height = 1080, 30, 821, 381
+        self.canvas = PlotCanvas(x_locate, y_locate, width, height, MainWindow)
+        self.canvas.plot_data(x, y)
+        self.canvas.axes.set_xlabel("Tháng")
+        self.canvas.axes.set_ylabel("Giá tiền(tỷ)")
+        self.canvas.axes.set_title("Giá đất trung bình tại Hà Nôội")
+
+    def chart2(self):
+        x = []
+        y = []
+        try:
+            tinh = unidecode(self.comboBox.currentText().replace(' ', '').lower())
+        except:
+            tinh = "hanoi"
+        if tinh == " " or tinh == "":
+            tinh = "hanoi"
+        connection = connectDB.connect()
+        cursor = connection.cursor()
+        set_value = """select Case
+                        when substring_index(District, " ", 1) = "Quận" then substring_index(District, "Quận ", -1)
+                        when substring_index(District, " ", 1) = "Huyện" then substring_index(District, "Huyện ", -1)
+                        when substring_index(District, " ", 1) = "Thị" then substring_index(District, "Thị xã ", -1)
+                        end
+                     ,count(District)
+                    from hanoi
+                    group by District
+                    """
+        cursor.execute(set_value)
+        data = cursor.fetchall()
+        for i in data:
+            x.append(i[0])
+            y.append(i[1])
+        connection.close()
+        x_locate, y_locate, width, height = 1080, 400, 821, 570
+        self.canvas1 = PlotCanvas(x_locate, y_locate, width, height, MainWindow)
+        self.canvas1.plot_bar(x, y)
+        self.canvas1.axes.set_xlabel("Quận/Huyện")
+        self.canvas1.axes.set_ylabel("Số tin đăng")
+        self.canvas1.axes.set_xticks(range(len(x)))
+        self.canvas1.axes.set_xticklabels(x, rotation=45, ha="right")
+
+class PlotCanvas(FigureCanvas):
+    def __init__(self, x, y, width, height, parent=None):
+        self.fig = Figure(figsize=(width / 100, height / 100), dpi=100)
+        self.axes = self.fig.add_subplot(111)
+        super().__init__(self.fig)
+
+        self.setGeometry(x, y, width, height)  # Đặt vị trí và kích thước của biểu đồ
+        self.setParent(parent)
+
+    def plot_data(self, x, y):
+        self.axes.plot(x, y)
+        self.draw()
+
+    def plot_bar(self, x, y):
+        # Vẽ biểu đồ cột
+        self.axes.bar(x, y)
+        self.axes.xaxis.set_major_locator(MaxNLocator(integer=True))  # Đảm bảo trục x hiển thị số nguyên
+        self.draw()
             
 if __name__ == "__main__":
     import sys

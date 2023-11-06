@@ -30,5 +30,9 @@ def creTable(tinh):
         # Thực thi câu truy vấn để tạo bảng
         cursor = mydb.cursor()
         cursor.execute(create_table_query)
+
+        add_column = f"ALTER TABLE {tinh} ADD price_clean DOUBLE;"
+        cursor.execute(add_column)
+
     # Đóng kết nối đến MySQL
     mydb.close()
