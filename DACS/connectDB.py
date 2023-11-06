@@ -3,7 +3,7 @@ import mysql.connector
 def connect():
     config = {
         "user":"root",
-        "password":"123123",
+        "password":"dat123456789",
         "host":"127.0.0.1",
         "port":"3306",
         "database":"giadat2",

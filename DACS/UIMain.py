@@ -104,10 +104,9 @@ class Ui_MainWindow(object):
         self.spinBox_2 = QtWidgets.QSpinBox(self.centralwidget)
         self.spinBox_2.setGeometry(QtCore.QRect(971, 200, 81, 22))
         self.spinBox_2.setObjectName("spinBox_2")
-        self.horizontalSlider = QtWidgets.QSlider(self.centralwidget)
-        self.horizontalSlider.setGeometry(QtCore.QRect(650, 120, 401, 22))
-        self.horizontalSlider.setOrientation(QtCore.Qt.Horizontal)
-        self.horizontalSlider.setObjectName("horizontalSlider")
+        self.comboBox_5 = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox_5.setGeometry(QtCore.QRect(650, 120, 401, 22))
+        self.comboBox_5.setObjectName("comboBox_5")
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(550, 120, 81, 16))
         font = QtGui.QFont()
@@ -140,63 +139,7 @@ class Ui_MainWindow(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
-        self.comboBox.addItem("")
+
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(20, 20, 501, 41))
         font = QtGui.QFont()
@@ -231,10 +174,9 @@ class Ui_MainWindow(object):
         font.setStrikeOut(False)
         self.label_7.setFont(font)
         self.label_7.setObjectName("label_7")
-        self.horizontalSlider_2 = QtWidgets.QSlider(self.centralwidget)
-        self.horizontalSlider_2.setGeometry(QtCore.QRect(650, 160, 401, 22))
-        self.horizontalSlider_2.setOrientation(QtCore.Qt.Horizontal)
-        self.horizontalSlider_2.setObjectName("horizontalSlider_2")
+        self.comboBox_6 = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox_6.setGeometry(QtCore.QRect(650, 160, 401, 22))
+        self.comboBox_6.setObjectName("comboBox_6")
         self.label_10 = QtWidgets.QLabel(self.centralwidget)
         self.label_10.setGeometry(QtCore.QRect(550, 80, 91, 16))
         font = QtGui.QFont()
@@ -290,7 +232,7 @@ class Ui_MainWindow(object):
         layout.addWidget(self.chart2())
         layout.addWidget(self.chart1())
 
-        self.pushButton.clicked.connect(self.timKiem)
+        self.pushButton.clicked.connect(self.filter_data)
         self.pushButton_4.clicked.connect(self.get_selected_row_data)
         self.actionL_u_tr.triggered.connect(self.open_luu_tru_window)
         self.pushButton_3.clicked.connect(self.crawlData)
@@ -321,69 +263,261 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "Phòng ngủ:"))
         self.menufile.setTitle(_translate("MainWindow", "File"))
         self.actionL_u_tr.setText(_translate("MainWindow", "Lưu trữ"))
-        self.comboBox.setItemText(0, _translate("MainWindow", "Hà Nội"))
-        self.comboBox.setItemText(1, _translate("MainWindow", "Hồ Chí Minh"))
-        self.comboBox.setItemText(2, _translate("MainWindow", "Đà Nẵng"))
-        self.comboBox.setItemText(3, _translate("MainWindow", "Hải Phòng"))
-        self.comboBox.setItemText(4, _translate("MainWindow", "Cần Thơ"))
-        self.comboBox.setItemText(5, _translate("MainWindow", "An Giang"))
-        self.comboBox.setItemText(6, _translate("MainWindow", "Bà Rịa Vũng Tàu"))
-        self.comboBox.setItemText(7, _translate("MainWindow", "Bạc Liêu"))
-        self.comboBox.setItemText(8, _translate("MainWindow", "Bắc Kanj"))
-        self.comboBox.setItemText(9, _translate("MainWindow", "Bắc Giang"))
-        self.comboBox.setItemText(10, _translate("MainWindow", "Hải Dương"))
-        self.comboBox.setItemText(11, _translate("MainWindow", "Bắc Ninh"))
-        self.comboBox.setItemText(12, _translate("MainWindow", "Bến Tre"))
-        self.comboBox.setItemText(13, _translate("MainWindow", "Bình Dương"))
-        self.comboBox.setItemText(14, _translate("MainWindow", "Bình Định"))
-        self.comboBox.setItemText(15, _translate("MainWindow", "Bình Phước"))
-        self.comboBox.setItemText(16, _translate("MainWindow", "Bình Thuận"))
-        self.comboBox.setItemText(17, _translate("MainWindow", "Cà Mau"))
-        self.comboBox.setItemText(18, _translate("MainWindow", "Cao Bằng"))
-        self.comboBox.setItemText(19, _translate("MainWindow", "Đắk Lắk"))
-        self.comboBox.setItemText(20, _translate("MainWindow", "Dak Nông"))
-        self.comboBox.setItemText(21, _translate("MainWindow", "Điện Biên"))
-        self.comboBox.setItemText(22, _translate("MainWindow", "Đồng Nai"))
-        self.comboBox.setItemText(23, _translate("MainWindow", "Đồng Tháp"))
-        self.comboBox.setItemText(24, _translate("MainWindow", "Gia Lai"))
-        self.comboBox.setItemText(25, _translate("MainWindow", "Hà Giang"))
-        self.comboBox.setItemText(26, _translate("MainWindow", "Hà Nam"))
-        self.comboBox.setItemText(27, _translate("MainWindow", "Hà Tĩnh"))
-        self.comboBox.setItemText(28, _translate("MainWindow", "Hậu Giang"))
-        self.comboBox.setItemText(29, _translate("MainWindow", "Hòa Bình"))
-        self.comboBox.setItemText(30, _translate("MainWindow", "Hưng Yên"))
-        self.comboBox.setItemText(31, _translate("MainWindow", "Khánh Hòa"))
-        self.comboBox.setItemText(32, _translate("MainWindow", "Kiên Giang"))
-        self.comboBox.setItemText(33, _translate("MainWindow", "Kon Tum"))
-        self.comboBox.setItemText(34, _translate("MainWindow", "Lai Châu"))
-        self.comboBox.setItemText(35, _translate("MainWindow", "Lâm Đồng"))
-        self.comboBox.setItemText(36, _translate("MainWindow", "Lạng Sơn"))
-        self.comboBox.setItemText(37, _translate("MainWindow", "Lào Cai"))
-        self.comboBox.setItemText(38, _translate("MainWindow", "Long An"))
-        self.comboBox.setItemText(39, _translate("MainWindow", "Nam Định"))
-        self.comboBox.setItemText(40, _translate("MainWindow", "Nghệ An"))
-        self.comboBox.setItemText(41, _translate("MainWindow", "Ninh Bình"))
-        self.comboBox.setItemText(42, _translate("MainWindow", "Ninh Thuận"))
-        self.comboBox.setItemText(43, _translate("MainWindow", "Phú Thọ"))
-        self.comboBox.setItemText(44, _translate("MainWindow", "Phú Yên"))
-        self.comboBox.setItemText(45, _translate("MainWindow", "Quảng Bình"))
-        self.comboBox.setItemText(46, _translate("MainWindow", "Quảng Nam"))
-        self.comboBox.setItemText(47, _translate("MainWindow", "Quảng Ngãi"))
-        self.comboBox.setItemText(48, _translate("MainWindow", "Quảng Ninh"))
-        self.comboBox.setItemText(49, _translate("MainWindow", "Quảng Trị"))
-        self.comboBox.setItemText(50, _translate("MainWindow", "Sóc Trăng"))
-        self.comboBox.setItemText(51, _translate("MainWindow", "Sơn La"))
-        self.comboBox.setItemText(52, _translate("MainWindow", "Tây Ninh"))
-        self.comboBox.setItemText(53, _translate("MainWindow", "Thái Bình"))
-        self.comboBox.setItemText(54, _translate("MainWindow", "Thái Nguyên"))
-        self.comboBox.setItemText(55, _translate("MainWindow", "Thanh Hóa"))
-        self.comboBox.setItemText(56, _translate("MainWindow", "Thừa Thiên-Huế"))
-        self.comboBox.setItemText(57, _translate("MainWindow", "Tiền Giang"))
-        self.comboBox.setItemText(58, _translate("MainWindow", "Trà Vinh"))
-        self.comboBox.setItemText(59, _translate("MainWindow", "Tuyên Quang"))
-        self.comboBox.setItemText(60, _translate("MainWindow", "Vĩnh Long"))
-        self.comboBox.setItemText(61, _translate("MainWindow", "Vĩnh Phúc"))
-        self.comboBox.setItemText(62, _translate("MainWindow", "Yên Bái"))
+        self.comboBox.setItemText(0, _translate("MainWindow", "Chọn tỉnh thành"))
+        self.comboBox.setItemText(1, _translate("MainWindow", "Hà Nội"))
+        self.comboBox.setItemText(2, _translate("MainWindow", "Hồ Chí Minh"))
+        self.comboBox.setItemText(3, _translate("MainWindow", "Đà Nẵng"))
+        self.comboBox.setItemText(4, _translate("MainWindow", "Hải Phòng"))
+        self.comboBox.setItemText(5, _translate("MainWindow", "Cần Thơ"))
+        self.comboBox.setItemText(6, _translate("MainWindow", "An Giang"))
+ 
+
+
+        self.comboBox_4.addItems(["Chọn vị trí nhà","Nhà trong hẻm", "Nhà mặt đường","Mặt bằng", "Đất thổ cư, đất ở"])
+        self.comboBox_5.addItems(["Chọn giá", "100 - 150 triệu", "150 - 200 triệu", "200 - 300 triệu", "300 - 500 triệu", "500 - 700 triệu", "700 - 900 triệu",
+                                  "1 - 2 tỷ", "2 - 3 tỷ", "3 - 4 tỷ", "4 - 6 tỷ", "6 - 10 tỷ", "10 - 20 tỷ", "20 - 30 tỷ", "30 - 40 tỷ", " 40 - 60 tỷ", "60 - 80 tỷ", "80 - 100 tỷ", "Trên 100 tỷ"])
+        self.comboBox_6.addItems(["Chọn diện tích","dưới 30 m2", "30 - 50 m2", "50 - 70 m2", "70 - 100 m2", "100 - 150 m2", "150 - 200 m2",
+                                  "200 - 250 m2", "250 - 300 m2", "300 - 400 m2", "400 - 600 m2", "600 - 800 m2", "800 - 100 m2", "Trên 1000 m2"])
+        
+        
+    # Loc du lieu start
+        self.comboBox.currentIndexChanged.connect(self.updateComboBox2)
+        self.comboBox_2.currentIndexChanged.connect(self.updateComboBox3)
+
+    def updateComboBox2(self):
+        selected_value = self.comboBox.currentText()
+        self.comboBox_2.clear()
+        
+        if selected_value == "Hà Nội":
+            self.comboBox_2.addItems(["Chọn Quận huyện", "Quận Ba Đình", "Quận Cầu Giấy", "Quận Đống Đa", "Quận Hà Đông", "Quận Hoàn Kiếm", "Quận Tây Hồ", "Quận Long Biên", "Quận Hoàng Ma",
+                                      "Quận Hai Bà Trưng", "Quận Thanh Xuân", "Quận Bắc Từ Liêm", "Quận Nam Từ Liêm", "Thị xã Sơn Tây", "Huyện Ba Vì", "Huyện Chương Mỹ",
+                                      "Huyện Đan Phượng", "Huyện Đông Anh", "Huyện Gia Lâm", "Huyện Hoài Đức", "Huyện Mê Linh", "Huyện Phú Xuyên", "Huyện Phúc Thọ", 
+                                      "Huyện Quốc Oai", "Huyện Sóc Sơn", "Huyện Thạch Thất", "Huyện Thanh Oai", "Huyện Thanh Trì", "Huyện Thường Tín", "Huyện Ứng Hòa"])
+        elif selected_value == "Hồ Chí Minh":
+            self.comboBox_2.addItems(["abc", "abc"])
+        elif selected_value == "Đà Nẵng":
+            self.comboBox_2.addItems(["abc", "abc"])
+        elif selected_value == "Hải Phòng":
+            self.comboBox_2.addItems(["abc abc", "abc"])
+        elif selected_value == "Nam Định":
+            self.comboBox_2.addItems(["abc", "abc"])
+
+    def updateComboBox3(self):
+        selected_value = self.comboBox_2.currentText()
+        self.comboBox_3.clear()
+
+        if selected_value == "Quận Ba Đình":
+            self.comboBox_3.addItems(["Chọn đường phố","Phố Láng Hạ", "Đường Kim Mã", "Đường Đội Nhân", "Phố Giang Văn Minh", "Phố Vĩnh Phúc", "Phố Văn Cao", "Phố Đốc Ngữ", "Phố Đội cấn", "Phố Núi Trúc", "Đường Ngọc Hà", "Đường Hoàng Hoa Thám",
+                                      "Đường Giảng Võ", "Phố Thành Công", "Phố Hàng Than", "Đường Đê La Thành", "Phố Thành Công", "Phố Ngọc Khánh", "Phố Nguyễn Công Hoan", "Phố Tân Ấp", "Phố Nguyễn Công Hoan", "Đường Đội Nhân",
+                                      "Đường Kim Mã", "Đường Hồng Hà", "Phố Đốc Ngữ", "Đường Đào Tấn", "Phố Phan Kế Bính", "Phố Thành Công", "Phố Liễu Giai", "Phố Hàng Than", "Đường Đê La Thành",
+                                       "Phố Ngọc Khánh", "Đường Khu tập thể Thành Công", "Đường Bưởi", "Phố Vĩnh Phúc", "Phố Nguyễn Thái Học", "Phố Liễu Giai", "Đường Đê La Thành", "Phố Trúc Bạch", "Phố Vạn Phúc", "Phố Giang Văn Minh",
+                                       "Đường Đào Tấn"])
+    
+        if selected_value == "Quận Đống Đa":
+            self.comboBox_3.addItems(["Phố Tây Sơn", "abc"])
+    
+    
+    
+    def extract_bedrooms(self, bedroom_str):
+        import re
+
+        # Use a regular expression to extract the number of bedrooms
+        match = re.search(r'(\d+)', bedroom_str)
+        if match:
+            return int(match.group(0))
+        return 0
+    
+    def load_filtered_data(self, filtered_data):
+        self.model.clear()
+
+        # Đặt lại header với thông tin từ biến header
+        self.model.setHorizontalHeaderLabels(self.header)
+
+        for row_data in filtered_data:
+            try:
+                items = [QtGui.QStandardItem(row_data[column]) for column in self.header]
+                self.model.appendRow(items)
+            except Exception as e:
+                print("Error loading filtered data:", str(e))
+                continue
+   
+        
+                    
+    def filter_data(self):
+        tinh_da_chon = self.comboBox.currentText()
+        quan_huyen_da_chon = self.comboBox_2.currentText()
+        duong_pho_da_chon = self.comboBox_3.currentText()
+        loai_nha_dat_da_chon = self.comboBox_4.currentText()
+        so_phong_ngu_da_chon = self.spinBox.value()  # Lấy giá trị số phòng ngủ đã chọn
+        so_tang_da_chon = self.spinBox_2.value()  # Lấy giá trị số tầng đã chọn
+        
+        
+        
+        selected_range = self.comboBox_6.currentText()
+        
+        if "dưới 30 m2" in selected_range:
+            min_area, max_area = 0, 30
+        elif "30 - 50 m2" in selected_range:
+            min_area, max_area = 31, 50
+        elif "50 - 70 m2" in selected_range:
+            min_area, max_area = 51, 70
+        elif "70 - 100 m2" in selected_range:
+            min_area, max_area = 71, 100
+        elif "100 - 150 m2" in selected_range:
+            min_area, max_area = 101, 150
+        elif "150 - 200 m2" in selected_range:
+            min_area, max_area = 151, 200
+        elif "200 - 250 m2" in selected_range:
+            min_area, max_area = 201, 250
+        elif "250 - 300 m2" in selected_range:
+            min_area, max_area = 251, 300
+        elif "300 - 400 m2" in selected_range:
+            min_area, max_area = 301, 400
+        elif "400 - 600 m2" in selected_range:
+            min_area, max_area = 401, 600
+        elif "600 - 800 m2" in selected_range:
+            min_area, max_area = 601, 800
+        elif "800 - 1000 m2" in selected_range:
+            min_area, max_area = 801, 1000
+        elif "Trên 1000 m2" in selected_range:
+            min_area, max_area = 1000, 10000
+        else:
+            min_area, max_area = 0, float('inf')
+            
+            
+            
+            
+        selected_price_range = self.comboBox_5.currentText()
+    
+        if "100 - 150 triệu" in selected_price_range:
+            min_price, max_price = 100, 150
+        elif "150 - 200 triệu" in selected_price_range:
+            min_price, max_price = 151, 200
+        elif "200 - 300 triệu" in selected_price_range:
+            min_price, max_price = 200, 300  
+        elif "300 - 500 triệu" in selected_price_range:
+            min_price, max_price = 301, 500  
+        elif "500 - 700 triệu" in selected_price_range:
+            min_price, max_price = 501, 700  
+        elif "700 - 900 triệu" in selected_price_range:
+            min_price, max_price = 700, 900  
+        elif "1 - 2 tỷ" in selected_price_range:
+            min_price, max_price = 1, 1.9  
+        elif "2 - 3 tỷ" in selected_price_range:
+            min_price, max_price = 2, 2.9  
+        elif "3 - 4 tỷ" in selected_price_range:
+            min_price, max_price = 3, 3.9  
+        elif "4 - 6 tỷ" in selected_price_range:
+            min_price, max_price = 4, 5.9  
+        elif "6 - 10 tỷ" in selected_price_range:
+            min_price, max_price = 6, 9.9  
+        elif "10 - 20 tỷ" in selected_price_range:
+            min_price, max_price = 10, 19.9  
+        elif "20 - 30 tỷ" in selected_price_range:
+            min_price, max_price = 20, 29.9
+        elif "30 - 40 tỷ" in selected_price_range:
+            min_price, max_price = 30, 39.9  
+        elif "40 - 60 tỷ" in selected_price_range:
+            min_price, max_price = 40, 59.9  
+        elif "60 - 80 tỷ" in selected_price_range:
+            min_price, max_price = 60, 79.9  
+        elif "80 - 100 tỷ" in selected_price_range:
+            min_price, max_price = 60, 99.9  
+        elif "Trên 100 tỷ" in selected_price_range:
+            min_price, max_price = 99, 10000  
+        else:
+            min_price, max_price = 0, float('inf')
+
+        # Đọc dữ liệu từ tệp CSV
+        csv_file_path = "UIMaindata.csv"
+        filtered_data = []
+        bedroom_column = []
+        floor_column = []
+
+
+        try:
+            with open(csv_file_path, 'r', newline='', encoding='utf-16') as file:
+                reader = csv.DictReader(file, delimiter='\t')
+                self.header = reader.fieldnames  # Lấy tên các cột từ file CSV
+                so_phong_ngu = 0  
+                so_tang = 0
+                
+      
+                
+                
+                for row_data in reader:
+                    
+                    
+                    if so_phong_ngu_da_chon == 0:
+                        bedroom_column.append(row_data["Bedrooms"])
+                    else:
+                        so_phong_ngu = self.extract_bedrooms(row_data["Bedrooms"])
+                                                    
+                    if so_tang_da_chon == 0:
+                        floor_column.append(row_data["Floor"])
+                    else:
+                        so_tang = self.extract_bedrooms(row_data["Floor"])
+                    
+                    # Lấy giá trị diện tích từ cột "Area"
+                    area_str = row_data["Area"]
+                    import re
+                    match = re.search(r'(\d+(\.\d+)?)', area_str)
+                    if match:
+                        area = float(match.group(1))
+                    else:
+                        area = 0  
+                    
+                    
+                    
+                    import re
+
+                    price_str = row_data["Price"]
+
+                    
+                    if "tỷ" in selected_price_range:
+                        if "tr" in price_str:
+                            price = 0
+                        else:
+                            match = re.search(r'(\d+(\.\d+)?)', price_str)
+                            if match:
+                                price = float(match.group(1))
+                            else:
+                                price = 0
+                    
+                    else:
+                        if "tỷ" in price_str:
+                            price = 0
+                        else:
+                            match = re.search(r'(\d+(\.\d+)?)', price_str)
+                            if match:
+                                price = float(match.group(1))
+                            else:
+                                price = 0
+                    
+                    
+                        
+                    
+                    if (quan_huyen_da_chon == "Chọn Quận huyện" or quan_huyen_da_chon in row_data["Location"]) and \
+                    (duong_pho_da_chon == "Chọn đường phố" or duong_pho_da_chon in row_data["Location"]) and \
+                    (loai_nha_dat_da_chon == "Chọn vị trí nhà" or loai_nha_dat_da_chon in row_data["Type"]) and \
+                    (min_price <= price <= max_price) and \
+                    (min_area <= area <= max_area) and \
+                    (so_phong_ngu == so_phong_ngu_da_chon) and \
+                    (so_tang == so_tang_da_chon):
+
+                        filtered_data.append(row_data)
+
+        except Exception as e:
+            print("Error filtering data:", str(e))
+
+        self.load_filtered_data(filtered_data)
+    
+    
+    
+    # Loc du lieu end
+
+
+
 
     def timKiem(self):
         self.load_data_from_csv()

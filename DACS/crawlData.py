@@ -17,7 +17,7 @@ options = Options()
 options.add_argument('--headless')
 
 def createDriver():
-    return webdriver.Chrome(ChromeDriverManager().install())
+    return webdriver.Chrome()
 
 def crawlUpData(driver, tinh, indexTinh, theLoaiNha, trangs):
     for trang in range(trangs):
