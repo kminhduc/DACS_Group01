@@ -16,7 +16,7 @@ def creTable(tinh):
     month = now.month
     year = now.year
 
-    with open('Book2.csv', newline='') as csvfile:
+    with open('D:\DACS_Group02\DACS\Book2.csv', newline='') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         header = next(reader)  # Lấy tiêu đề cột
 

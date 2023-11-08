@@ -139,7 +139,63 @@ class Ui_MainWindow(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
-
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(20, 20, 501, 41))
         font = QtGui.QFont()
@@ -263,24 +319,80 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "Phòng ngủ:"))
         self.menufile.setTitle(_translate("MainWindow", "File"))
         self.actionL_u_tr.setText(_translate("MainWindow", "Lưu trữ"))
-        self.comboBox.setItemText(0, _translate("MainWindow", "Chọn tỉnh thành"))
-        self.comboBox.setItemText(1, _translate("MainWindow", "Hà Nội"))
-        self.comboBox.setItemText(2, _translate("MainWindow", "Hồ Chí Minh"))
-        self.comboBox.setItemText(3, _translate("MainWindow", "Đà Nẵng"))
-        self.comboBox.setItemText(4, _translate("MainWindow", "Hải Phòng"))
-        self.comboBox.setItemText(5, _translate("MainWindow", "Cần Thơ"))
-        self.comboBox.setItemText(6, _translate("MainWindow", "An Giang"))
+        self.comboBox.setItemText(0, _translate("MainWindow", "Hà Nội"))
+        self.comboBox.setItemText(1, _translate("MainWindow", "Hồ Chí Minh"))
+        self.comboBox.setItemText(2, _translate("MainWindow", "Đà Nẵng"))
+        self.comboBox.setItemText(3, _translate("MainWindow", "Hải Phòng"))
+        self.comboBox.setItemText(4, _translate("MainWindow", "Cần Thơ"))
+        self.comboBox.setItemText(5, _translate("MainWindow", "An Giang"))
+        self.comboBox.setItemText(6, _translate("MainWindow", "Bà Rịa Vũng Tàu"))
+        self.comboBox.setItemText(7, _translate("MainWindow", "Bạc Liêu"))
+        self.comboBox.setItemText(8, _translate("MainWindow", "Bắc Kanj"))
+        self.comboBox.setItemText(9, _translate("MainWindow", "Bắc Giang"))
+        self.comboBox.setItemText(10, _translate("MainWindow", "Hải Dương"))
+        self.comboBox.setItemText(11, _translate("MainWindow", "Bắc Ninh"))
+        self.comboBox.setItemText(12, _translate("MainWindow", "Bến Tre"))
+        self.comboBox.setItemText(13, _translate("MainWindow", "Bình Dương"))
+        self.comboBox.setItemText(14, _translate("MainWindow", "Bình Định"))
+        self.comboBox.setItemText(15, _translate("MainWindow", "Bình Phước"))
+        self.comboBox.setItemText(16, _translate("MainWindow", "Bình Thuận"))
+        self.comboBox.setItemText(17, _translate("MainWindow", "Cà Mau"))
+        self.comboBox.setItemText(18, _translate("MainWindow", "Cao Bằng"))
+        self.comboBox.setItemText(19, _translate("MainWindow", "Đắk Lắk"))
+        self.comboBox.setItemText(20, _translate("MainWindow", "Dak Nông"))
+        self.comboBox.setItemText(21, _translate("MainWindow", "Điện Biên"))
+        self.comboBox.setItemText(22, _translate("MainWindow", "Đồng Nai"))
+        self.comboBox.setItemText(23, _translate("MainWindow", "Đồng Tháp"))
+        self.comboBox.setItemText(24, _translate("MainWindow", "Gia Lai"))
+        self.comboBox.setItemText(25, _translate("MainWindow", "Hà Giang"))
+        self.comboBox.setItemText(26, _translate("MainWindow", "Hà Nam"))
+        self.comboBox.setItemText(27, _translate("MainWindow", "Hà Tĩnh"))
+        self.comboBox.setItemText(28, _translate("MainWindow", "Hậu Giang"))
+        self.comboBox.setItemText(29, _translate("MainWindow", "Hòa Bình"))
+        self.comboBox.setItemText(30, _translate("MainWindow", "Hưng Yên"))
+        self.comboBox.setItemText(31, _translate("MainWindow", "Khánh Hòa"))
+        self.comboBox.setItemText(32, _translate("MainWindow", "Kiên Giang"))
+        self.comboBox.setItemText(33, _translate("MainWindow", "Kon Tum"))
+        self.comboBox.setItemText(34, _translate("MainWindow", "Lai Châu"))
+        self.comboBox.setItemText(35, _translate("MainWindow", "Lâm Đồng"))
+        self.comboBox.setItemText(36, _translate("MainWindow", "Lạng Sơn"))
+        self.comboBox.setItemText(37, _translate("MainWindow", "Lào Cai"))
+        self.comboBox.setItemText(38, _translate("MainWindow", "Long An"))
+        self.comboBox.setItemText(39, _translate("MainWindow", "Nam Định"))
+        self.comboBox.setItemText(40, _translate("MainWindow", "Nghệ An"))
+        self.comboBox.setItemText(41, _translate("MainWindow", "Ninh Bình"))
+        self.comboBox.setItemText(42, _translate("MainWindow", "Ninh Thuận"))
+        self.comboBox.setItemText(43, _translate("MainWindow", "Phú Thọ"))
+        self.comboBox.setItemText(44, _translate("MainWindow", "Phú Yên"))
+        self.comboBox.setItemText(45, _translate("MainWindow", "Quảng Bình"))
+        self.comboBox.setItemText(46, _translate("MainWindow", "Quảng Nam"))
+        self.comboBox.setItemText(47, _translate("MainWindow", "Quảng Ngãi"))
+        self.comboBox.setItemText(48, _translate("MainWindow", "Quảng Ninh"))
+        self.comboBox.setItemText(49, _translate("MainWindow", "Quảng Trị"))
+        self.comboBox.setItemText(50, _translate("MainWindow", "Sóc Trăng"))
+        self.comboBox.setItemText(51, _translate("MainWindow", "Sơn La"))
+        self.comboBox.setItemText(52, _translate("MainWindow", "Tây Ninh"))
+        self.comboBox.setItemText(53, _translate("MainWindow", "Thái Bình"))
+        self.comboBox.setItemText(54, _translate("MainWindow", "Thái Nguyên"))
+        self.comboBox.setItemText(55, _translate("MainWindow", "Thanh Hóa"))
+        self.comboBox.setItemText(56, _translate("MainWindow", "Thừa Thiên-Huế"))
+        self.comboBox.setItemText(57, _translate("MainWindow", "Tiền Giang"))
+        self.comboBox.setItemText(58, _translate("MainWindow", "Trà Vinh"))
+        self.comboBox.setItemText(59, _translate("MainWindow", "Tuyên Quang"))
+        self.comboBox.setItemText(60, _translate("MainWindow", "Vĩnh Long"))
+        self.comboBox.setItemText(61, _translate("MainWindow", "Vĩnh Phúc"))
+        self.comboBox.setItemText(62, _translate("MainWindow", "Yên Bái"))
  
 
 
-        self.comboBox_4.addItems(["Chọn vị trí nhà","Nhà trong hẻm", "Nhà mặt đường","Mặt bằng", "Đất thổ cư, đất ở"])
+        self.comboBox_4.addItems(["Chọn vị trí nhà","nha-mat-tien", "Nhà trong hẻm", "Nhà mặt đường","Mặt bằng","can-ho-chung-cu", "Đất thổ cư, đất ở"])
         self.comboBox_5.addItems(["Chọn giá", "100 - 150 triệu", "150 - 200 triệu", "200 - 300 triệu", "300 - 500 triệu", "500 - 700 triệu", "700 - 900 triệu",
                                   "1 - 2 tỷ", "2 - 3 tỷ", "3 - 4 tỷ", "4 - 6 tỷ", "6 - 10 tỷ", "10 - 20 tỷ", "20 - 30 tỷ", "30 - 40 tỷ", " 40 - 60 tỷ", "60 - 80 tỷ", "80 - 100 tỷ", "Trên 100 tỷ"])
         self.comboBox_6.addItems(["Chọn diện tích","dưới 30 m2", "30 - 50 m2", "50 - 70 m2", "70 - 100 m2", "100 - 150 m2", "150 - 200 m2",
                                   "200 - 250 m2", "250 - 300 m2", "300 - 400 m2", "400 - 600 m2", "600 - 800 m2", "800 - 100 m2", "Trên 1000 m2"])
         
         
-    # Loc du lieu start
+                                         # Loc du lieu start
         self.comboBox.currentIndexChanged.connect(self.updateComboBox2)
         self.comboBox_2.currentIndexChanged.connect(self.updateComboBox3)
 
@@ -289,19 +401,32 @@ class Ui_MainWindow(object):
         self.comboBox_2.clear()
         
         if selected_value == "Hà Nội":
-            self.comboBox_2.addItems(["Chọn Quận huyện", "Quận Ba Đình", "Quận Cầu Giấy", "Quận Đống Đa", "Quận Hà Đông", "Quận Hoàn Kiếm", "Quận Tây Hồ", "Quận Long Biên", "Quận Hoàng Ma",
+            self.comboBox_2.addItems(["Chọn Quận huyện", "Quận Ba Đình", "Quận Cầu Giấy", "Quận Đống Đa", "Quận Hà Đông", "Quận Hoàn Kiếm", "Quận Tây Hồ", "Quận Long Biên", "Quận Hoàng Mai",
                                       "Quận Hai Bà Trưng", "Quận Thanh Xuân", "Quận Bắc Từ Liêm", "Quận Nam Từ Liêm", "Thị xã Sơn Tây", "Huyện Ba Vì", "Huyện Chương Mỹ",
                                       "Huyện Đan Phượng", "Huyện Đông Anh", "Huyện Gia Lâm", "Huyện Hoài Đức", "Huyện Mê Linh", "Huyện Phú Xuyên", "Huyện Phúc Thọ", 
                                       "Huyện Quốc Oai", "Huyện Sóc Sơn", "Huyện Thạch Thất", "Huyện Thanh Oai", "Huyện Thanh Trì", "Huyện Thường Tín", "Huyện Ứng Hòa"])
         elif selected_value == "Hồ Chí Minh":
-            self.comboBox_2.addItems(["abc", "abc"])
+            self.comboBox_2.addItems(["Chọn Quận Huyện", "Quận 1", "Quận 3", "Quận 4", "Quận 5", "Quận 6", "Quận 7",
+                                      "Quận 8", "Quận 10", "Quận 11", "Quận 12", "Quận Bình Tân", "Bình Thạnh", "Quận Gò Vấp",
+                                      "Quận Phú Nhuận", "Quận Tân Bình", "Quận Tân Phú", "Huyện Bình Chánh", "Huyện Cần Giờ", "Huyện Hóc Môn",
+                                      "Huyện Củ Chi", "Huyện Nhà Bè"])
         elif selected_value == "Đà Nẵng":
-            self.comboBox_2.addItems(["abc", "abc"])
-        elif selected_value == "Hải Phòng":
-            self.comboBox_2.addItems(["abc abc", "abc"])
-        elif selected_value == "Nam Định":
-            self.comboBox_2.addItems(["abc", "abc"])
+            self.comboBox_2.addItems(["Chọn Quận Huyện", "Quận Hải Châu", "Quận Cẩm Lệ",  "Quận Thanh Khê",
+                                      "Quận Liên Chiểu",  "Quận Ngũ Hành Sơn",  "Quận Sơn Trà",  "Huyện Hòa Vang",  "Huyện Hoàng Sa"])
+            
 
+        elif selected_value == "Hải Phòng":
+            self.comboBox_2.addItems(["Chọn Quận Huyện", "Quận Hồng Bàng","Quận Ngô Quyền","Quận Lê Chân","Quận Hải An","Quận Kiến An","Quận Đồ Sơn","Quận Dương Kinh","Huyện Thuỷ Nguyên","Huyện An Dương","Huyện An Lão","Huyện Kiến Thụy","Huyện Tiên Lãng","Huyện Vĩnh Bảo","Huyện Cát Hải","Huyện Bạch Long Vĩ"  ])
+                                                    
+        elif selected_value == "Cần Thơ":
+            self.comboBox_2.addItems(["Chọn Quận huyện", "Quận Ninh Kiều", "Quận Bình Thuỷ	", "Quận Thốt Nốt", "Quận Cái Răng", "Quận Ô Môn", "Huyện Cờ Đỏ", "Huyện Phong Điền", "Huyện Thới Lai", "Huyện Vĩnh Thạnh" ])
+            
+        elif selected_value == "Nam Đinh":    
+             self.comboBox_2.addItems(["Chọn Quận huyện", "Thành phố Nam Định", "Ý Yên", "Xuân Trường", "Vụ Bản", "Trực Ninh", "Nghĩa Hưng", "Nam Trực", "Mỹ Lộc", "Hải Hậu", "Giao Thủy"])
+        
+        elif selected_value == "Bà Rịa Vũng Tàu":
+            self.comboBox_2.addItems(["Chọn Quận huyện", "Huyện Châu Đức", "Huyện Đất Đỏ", "Huyện Long Điền", "Huyện Xuyên Lộc", "Huyện CÔn Đảo"])
+        
     def updateComboBox3(self):
         selected_value = self.comboBox_2.currentText()
         self.comboBox_3.clear()
@@ -313,9 +438,1224 @@ class Ui_MainWindow(object):
                                        "Phố Ngọc Khánh", "Đường Khu tập thể Thành Công", "Đường Bưởi", "Phố Vĩnh Phúc", "Phố Nguyễn Thái Học", "Phố Liễu Giai", "Đường Đê La Thành", "Phố Trúc Bạch", "Phố Vạn Phúc", "Phố Giang Văn Minh",
                                        "Đường Đào Tấn"])
     
-        if selected_value == "Quận Đống Đa":
-            self.comboBox_3.addItems(["Phố Tây Sơn", "abc"])
+        elif selected_value == "Quận Cầu Giấy":
+            self.comboBox_3.addItems("Chọn Đường Phố",["Đường Bưởi", "Đường Cầu Giấy", "Đường Chùa Hà", "Đường Đặng Thùy Trâm", "Đường Dịch Vọng", "Đường Dịch Vọng Hậu", "Đường Đinh Núp", "Đường Đỗ Quang", "Đường Doãn Kế Thiện", "Đường Dương Đình Nghệ", "Đường Dương Khuê", "Đường Dương Quảng Hàm	", "Đường Duy Tân", "Đường Đại lộ Thăng Long",
+                                      "Đường Hạ Yên Quyết", "Đường Bờ Sông ", "Đường Phan Văn Trường", "Phố Hoàng Minh Giám", "Đường Mạc Thái Tổ", "Phố Nguyễn Ngọc Vũ", "Phố Dịch Vọng", "Đường Trung Yên", "Đường Xuân Thủy", "Đường Cầu Giấy", "Phố Doãn Kế Thiên", "Phố Dương Quảng Hàm", "Phố Hoàng Ngân", "Đường Lê Đức Thọ", "Phố Mai Dịch", "Đường Nguyễn Đình Hoàn"
+                                       "Đường Nguyễn Phong Sắc", "Đường Phố Hoa Bằng", "Đường Trần Thái Tông", "Đường ", "Đường ", "Đường Yên Hòa", "Đường Cầu Vượt Mai Dịch", "Đường Đồng Bông", "Phố Dương Đình Nghệ", "Đường Đồng Bông", "Đường số 5", "Đường Hồ Tùng Mậu", "Đường Hoàng Quốc Việt", "Đường Lê Văn Lương", "Đường Mễ Trì", "Đường Nguyễn Khả Trạc", "Phố Nguyễn Thị Định", "Đường Phạm Thuận Duật",
+                                       "Phố Phùng Chí Kiên", "Phố Quan Nhân", "Phố Tô Hiệu", "Phố Trần Minh Đăng", "Phố Trần Tử Bình", "Đường Ven Sông", "Phố Chùa Hà", "Đường Đặng Thùy Trâm", "Đường Đông Quan", "Đường Hoa Bằng", "Đường Trung Hòa", "Phố Hoa Bằng", "Phố Hoàng Sâm", "Đường Lê Văn Lương", "Phố Nguyễn Khang", "Nguyễn Thị Định", "Đường Phạm Thận Duật", "Đường Trần Duy Hưng", "Đường Trần Vỹ", 
+                                        "Phố Vũ Phạm Hàm", "Đường Xuân Thủy", "Phố Trung Hòa", "Phố Trần Quốc Hoàn", "Phố Trần Kim Xuyến", "Phố Trần Bình", "Đường Thành Thái", "Phố Quan Nhân", "Phố Phan Văn Trường", "Phố Phạm Tuấn Tài", "Phố Nguyễn Thị Thập", "Đường Nguyễn Khánh Toàn", "Phố Nguyễn Tân", "Đường Lạc Long Quân", "Đường Khu Tập Thể Bảo Việt", "Đường k800A", "Đường Duy Tân", "Đường Hoàng Ngân",
+                                        "Đường Dịch Vọng", "Đường Cốm Vòng", "Đường Dịch Vọng Hậu"])
+            
+        elif selected_value == "Quận Đống Đa":   
+            self.comboBox_3.addItems([ "Chọn Đường Phố",'Đường Mai Anh Tuan', 'Đường Trần Hữu Tuoc', 'Phố Bích Câu', 'Phố Cát Linh', 'Đường 62 Nguyễn Chí Thanh', 'Đường Lång', 'Phố Cầu Mới', 'Phố Chùa Bộc', 'Phố Chùa Láng', 'Đường Chùa Nền', 'Phố Đại La', 'Phố Đặng Tiến Đông', 'Phố Đặng Trần Côn', 'Đường Đê La Thành', 'Phố Đặng Văn Ngữ', 'Đường Đào Duy Anh', 'Phố Đoàn Thị Điểm', 'Phố Đông Các', 'Phố Đông Tác.', 'Đường Đặng Tiến Đông', 'Đường Đường Lăng', 'Đường Đường Nguyễn Chí Thanh', 'Đường Nguyễn Lương Bằng', 'Đường Thái Thịnh', 'Phố Hàng Chảo', 'Phố Hào Nam', 'Phố Hồ Đắc Di', 'Phố Hồ Giảm', 'Phố Hoàng Cầu', 'Đường Hồ Văn Chuong', 'Phố Hoàng Ngọc Phách', 'Phố Hoàng Tích Tri', 'Phố Khâm Thiên', 'Phố Khương Thượng', 'Phố Kim Hoa', 'Đường Kim Liên Moi', 'Đường La Thành', 'Đường Láng', 'Phố Láng Hạ', 'Đường Lê Duẫn',
+                                      'Phố Ngô Sĩ Liên', 'Đường Nguyễn Chí Thành', 'Phố Nguyễn Khuy', 'Phố Nguyễn Lương Bằng', 'Phố Nguyễn Như', 'Phố Nguyễn Phúc Lai', 'Phố Nguyễn Thai Hoc', 'Phố Phạm Ngọc Thạch', 'Phố Phan Phù Tiêu',
+                                         'Phố Phan Văn Trị', 'Phố Pháo Đài Láng', 'Đường Phố 224', 'Phố Tây Sơn', 'Phố Thái Thịnh', 'Đường Phố Hoàng Cầu mới', 'Phố Phương Mai', 'Phố Quốc Tử Giám', 'Phố Tây Sơn', 'Phố Thái Hà', 'Đường Thái Hà Mới', 'Phố Thái Thịnh', 'Đường Thanh Miễn', 'Đường Thịnh Hào', 'Đường Thịnh Quang', 'Phố Trần Hữu Tục', 'Phố Trần Quang Diêu', 'Phố Trần Quý Cáp', 
+                                        'Phố Trịnh Hoài Đức', 'Phố Trúc Khê', 'Đường Trần Qui Cáp', 'Phố Trung Liệt', 'Đường Trưởng Chính', 'Đường Văn Hương', 'Đường Vĩnh Hồ', 'Đường Võ Văn Düng', 'Phố Vũ Thạnh', 'Phố Xã Đàn', 'Phố Y Miếu', 'Đường Yên Lãng',         
+                                        ])
+            
+        elif selected_value == "Quận Hà Đông":   
+            self.comboBox_3.addItems([   
+                                      "Chọn Đường Phố",
+                                      'Đường Phan Đình Giót', 'Đường An Hòa', 'Đường Ao Sen', 'Đường Ba La', 'Đường Bà Triệu', 'Phố Bạch Thái Buổi', 'Đường Bế Văn Đàn', 'Đường Bùi Bằng Doan', 'Đường Cao Thắng', 'Đường Chiến Thắng', 'Đường Chu Văn An', 'Đường Chung cư La Khê nha NC2', 'Đường Đại An', 'Đường Do Lộ', 'Phố Đinh Tiên Hoàng', 'Đường Đông Lâm', 'Đường Phủ Lương', 'Đường 19-5', 'Đường Chiến Thắng', 'Đường Cho', 'Đường Đất', 'Đường làng Nhân Trạch', 'Đường Thanh Lâm', 'Đường Hà Tri', 'Đường Hoàng Diệu', 'Đường Hoàng Hạnh', 'Đường Hoàng Hoa Thám', 'Đường Hữu hòa', 'Đường Hữu Hưng', 'Đường Hoàng Văn Thu', 'Đường Huỳnh Thúc Kháng', 'Đường Khối Độc Lap', 'Đường Kiến Hưng', 'Đường Lăng La Dương', 'Đường Khu Đồng Dua', 'Đường Lăng Việt Kiều Châu Âu', 'Phố Lê Hữu Trác', 'Đường Lê Lai', 'Đường Lê Lợi', 'Đường Lê Quý Đôn', 'Đường Lê Hồng Phong', 'Đường Lê Trọng Tan', 'Đường Lương Ngọc Quyền', 'Đường Lý Thường Kiêt', 'Đường Lý Tự Trọng', 'Đường Mậu Lương', 'Đường Lương Văn Can', 'Đường Minh Khai', 'Đường Mười Chín Tháng Năm',
+                                      'Đường Ngô Gia Khảm', 'Đường Ngô Gia Tự', 'Đường Ngô Quyền', 'Đường Ngô Thì Nhâm', 'Đường Ngô Thì Sỹ', 'Phố Nguyễn Công Tru', 'Đường Nguyễn Khuyến', 'Đường Nguyễn Thái Học',
+                                      'Đường  Nguyễn Thượng Hiền', 'Đường Nguyễn Trãi', 'Đường Nguyễn Văn Loc', 'Phố Nguyễn Văn Troi', 'Đường Nguyễn Văn Troi', 'Đường Nguyễn Viết Xuân', 'Đường Nhuệ Giang', 'Đường Phan Bội Châu', 'Đường Phan Chu Trinh', 'Phố Phan Đình Giỏi', 'Đường Phan Đình Giót', 'Phố Lụa', 'Phố Xốm', 'Đường Phan Đỉnh Phùng', 'Đường Phan Huy Chú', 'Đường Phố Thanh Binh', 'Đường Phú Lãm', 'Đường Phú Lương', 'Đường Phùng Hưng', 'Đường Phượng Bãi. Biên Giang', 'Đường Quang Trung', 'Đường Quốc lộ 21B', 'Đường Tản Đà', 'Đường Tây Sơn', 'Đường Thanh Bình', 'Đường Thượng Mao', 'Đường Tiểu khu CN, SimCo Sông Đà', 'Đường Tỉnh lộ 70', 'Đường Tỉnh lộ 70', 'Phố Tô Hiến Thành', 'Đường Tô Hiệu', 'Phố Tô Hiệu', 'Đường Tổ Hữu', 'Phố Tôn Hiến Thành', 'Đường Trần Phú', 
+                                      'Đường Trinh Lương', 'Đường Trần Đăng Ninh', 'Đường Trần Hưng Đao', 'Đường Trần Văn Chuông', 'Đường Trung Nhị', 'Đường Trưng Trắc', 'Đường Văn Khê', 'Đường Văn Phú', 'Đường Vạn Phúc', 'Đường Văn Quân', 'Đường Văn Yên', 'Đường Võ Thị Sáu', 'Đường Yên Nghĩa', 'Đường Yên Phúc', 'Đường Yết Kiêu'
+                                      ])    
+        
+        elif selected_value == "Quận Hoàn Kiếm":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                                    'Phố An Xã', 'Phố Ấu Triệu', 'Phố Bà Triệu', 'Đường Bạch Đằng', 'Đường Bạch Đằng', 'Phố Bảo Khánh', 'Đường Bảo Linh', 'Phố Bát Đàn', 'Phố Bát Sứ', 'Đường Cầm Chỉ', 'Phố Cao Thắng', 
+                                    'Phố Cầu Đông', 'Phố Cầu Gỗ', 'Đường Cầu Long Biên', 'Đường Cầu Chương Dương', 'Đường Cầu Đất', 'Đường Cầu Thê Húc', 'Phố Chả Cá', 'Phố Chân Cầm', 'Đường Chiến Thắng', 'Phố Chợ Gạo', 'Đường Cổ Tân', 'Đường Cổng Đục', 'Đường Chương Dương', 'Đường Chương Dương Độ', 'Phố Đã Tượng', 'Phố Đặng Thái Thần', 'Phố Đào Duy Từ', 'Đường Đinh Công Tráng', 'Phố Đinh Liệt', 'Phố Đình Ngang', 'Phố Đinh Tiên Hoàng', 'Đường Đồng Thái', 'Phố Đồng Xuân', 'Đường Bà Triệu', 'Đường Bát Đàn', 'Đường Của Nam', 'Đường Đinh Lễ', 'Đường Hàn Thuyên', 'Đường Nam Ngư', 'Đường Nguyễn Khiết', 'Đường Nguyễn Tư Gian', 'Đường Thành', 'Đường Trần Quang Khải', 'Đường Đường Nguyễn Thái Học', 'Đường Phan Bội Châu', 'Phố Gầm Cầu', 'Phố Gia Ngu', 'Đường Hạ Hồi', 'Phố Hà Trung', 'Phố Hai Bà Trung', 'Phố Hàm Long', 'Phố Hàng Bạc', 'Phố Hàng Bài', 'Phố Hàng Bè', 'Đường Hàm Tử Quan', 'Phố Hàng Bồ', 'Phố Hàng Bông', 'Phố Hàng Bút', 'Phố Hàng Cả', 'Phố Hàng Cân', 'Phố Hàng Chai', 'Phố Hàng Chiếu', 'Phố Hàng Chĩnh', 'Đường Hàng Chĩnh', 'Phố Hàng Cót'
+                
+            ])
+            
+        elif selected_value == "Quận Tây Hồ":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Đặng Thai Mai', 'Đường Hoàng Hoa Thȧm', 'Đường Hoàng Hoa Thȧm', 'Đường Đường Sis Khu đô thị Ciputra', 'Đường UNIS Khu đô thi Ciputra', 'Đường Yên Hoa', 'Đường Hồng Hà', 'Đường Nghĩ Tâm', 'Đường Lạc Long Quan', 'Đường Mai Xuân Thưởng', 'Đường Nguyễn Hoàng Tân', 'Đường Nhật Chiều', 'Đường Nước Phần Lan', 'Phố Atias Khu đô thị Ciputra', 'Phố Main Khu đô thị Ciputra', 'Phố Park Khu đô thị Ciputra', 'Đường Phú Gia', 'Đường Phủ Xã', 'Đường Quảng Bà', 'Đường Tây Hồ', 'Phố Pegasus Khu đô thị Ciputra', 'Đường Thanh Niên', 'Đường Thụy Khuê', 
+                'Đường Tô Ngọc Vân', 'Đường Trích Sài', 'Đường Vệ Hồ', 'Đường Ven Hồ', 'Đường Tử Hoa Công Chúa', 'Đường Ven Hồ Tây', 'Đường Ven Hỗ Thụy Khuê', 'Đường Võ Chí Công', 'Phố Võng Thị', 'Đường Xuân Diệu', 'Đường Xuân La', 'Đường Âu'
+                
+            ])
+            
+        elif selected_value == "Quận Long Biên":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Anh Đào 2 Khu đô thị Vincom', 'Đường Anh Đào 9 Khu đô thị Vincom', 'Đường Hoa Phượng 4 Khu đô thị Vincom', 'Đường Hoa Sữa 2 Khu đô thị Vincom', 'Đường Ải Mô', 'Đường Anh Đào 1 Khu đô thị Vincom', 'Đường Anh Đào 10 Khu đô thị Vincom', 'Đường Anh Đào 11 Khu đô thị Vincom', 'Đường Anh Đào 3 Khu đô thị Vincom', 'Đường Anh Đào 4', 'Đường Anh Đào 5 Khu đô thị Vincom', 'Đường Anh Đào & Khu đô thị Vincom',
+                'Đường Anh Đào 6 Khu đô thị Vincom', 'Đường Anh Đào 7', 'Đường Bắc Cầu', 'Đường Bằng Lăng', 'Phố Bồ Đề', 'Đường Bồ Đề', 'Đường Cầu Bây', 'Đường Cổ Linh', 'Đường Công Nghiệp 1', 'Đường Công Nghiệp 2', 'Đường Công Nghiệp 3', 'Đường Công Nghiệp', 'Đường Công Nghiệp 6', 'Đường Công Nghiệp 8', 'Đường Đế Vàng', 'Đường Đoàn Khuê', 'Đường Đức Giang', 'Đường Nguyễn Sơn', 'Đường Phủ yên', 'Phố Gia Quái', 'Đường Gia Thượng',
+                'Phố Gia Thụy', 'Đường Hoa Hồng Khu đô thị Vincom', 'Đường Hoa Lâm', 'Đường Hoa Lan 1 Khu đô thị Vincom', 'Đường Hoa Lan 2 Khu đô thị Vincom', 'Đường Hoa Lan 4 Khu đô thị Vincom', 'Đường Hoa Lan 3 Khu đô thị Vincom', 'Đường Hoa Lan 5 Khu đô thị Vincom', 'Đường Hoa Lan 6', 'Đường Hoa Lan 7', 'Đường Hoa Lan 8 Khu đô thị Vincom', 'Đường Hoa Lan Khu đô thị Vincom', 'Đường Hoa Phượng Đường Hoa Phượng Đường Hoa Phượng Đường Hoa Phượng Đường Hoa Phượng', 'Đường Hoa Phượng Đường Hoa Phượng Đường Hoa Phượng Đường Hoa Phượng Hoa Sữa',
+                'Đường Hoa Sữa 1', 'Đường Hoa Sữa 10', 'Đường Hoa Sữa 11', 'Đường Hoa Sữa 3', 'Đường Hoa Sữa 4', 'Đường Hoa Sữa 5'
+                
+            ])
+            
+        elif selected_value == "Quận Hoàng Mai":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Đại Đồng', 'Đường Đại Tử', 'Đường Đặng Xuân Bàng', 'Đường Định Công', 'Đường Định Công Thượng', 'Đường Đoàn Kết', 'Đường Đông Thiên', 'Đường Bắc Linh', 'Đường Giải Phóng', 
+                'Đường giải phong', 'Đường Giải Phóng', 'Đường Giáp Bát', 'Đường Giáp Nhĩ', 'Đường Hoàng Liệt', 'Đường Hoàng Mai', 'Phố Hưng Phúc', 'Đường KĐT Định Công', 'Đường KĐT Linh', 'Phố Kim Đồng', 'Đường Kim Giang', 'Phố Kim Ngưu', 'Đường Km 9 - Quốc LỘ 1A', 'Phố Lê Trọng Tấn', 'Đường Linh Đàm', 'Đường Linh Đường', 'Đường Lĩnh Nam', 'Đường Mai Động', 
+                'Đường Mai Khai', 'Phố Minh Khai', 'Đường Lương', 'Đường Nam Du', 'Đường Nghiêm Xuân Yêm', 'Đường Ngô 250/50, Kim Giang', 'Đường Ngô 24/99 Kim Đồng', 'Đường Ngô 364 Giải Phỏng',
+                'Đường Ngô 94 Nguyễn An Ninh', 'Đường Ngọc Hồi', 'Đường Nguyễn Cảnh Dị', 'Đường Nguyễn Hữu Tho', 'Đường Nguyễn Chính', 'Đường Nguyễn Khoái', 'Đường Nguyễn Công Thái', 'Đường Nguyễn Khoái', 
+                'Đường Ngũ Nhạc', 'Đường Nguyễn Đức Cánh', 'Đường Pháp Vân', 'Đường Nguyễn An Ninh', 'Đường Nguyễn Duy Trịnh', 'Phố Mới', 'Đường Tam Trinh', 'Đường Tam Trinh', 'Đường Thanh Lân', 'Đường Thịnh Liệt', 
+                'Đường Tựu Liệt', 'Đường Vĩnh Hưng', 'Đường Tân Mai', 'Đường Thủy Lĩnh', 'Đường Trương Định', 'Đường QL1A', 'Đường Tây Trà', 'Phố Sở Thường', 'Đường Thanh Đàm', 'Đường Trần Điền', 'Đường Trần Thủ Độ', 'Đường Vũ Tông Phan', 'Đường Trương Định', 'Đường Xóm 5', 'Đường Trần Điền', 'Đường Yên Sở'
+            ])
+            
+        elif selected_value == "Quận Hai Bà Trưng":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                
+               'Phố Ngô Thì Nhậm', 'Phố Nguyễn Binh Khiêm', 'Phố Nguyễn Cao', 'Phố Nguyễn Công Tru', 'Phố Nguyễn Du', 'Đường Nguyễn Khoái', 'Phố Nguyễn Đình Chiều', 'Phố Phạm Đình Hổ', 'Phố Phan Chu Trinh', 'Phố 8-3', 'Phố Nguyễn Thượng Hiền', 'Phố Huế', 'Đường Phố Trần Cao Vân', 'Phố Vọng', 'Phố Phù Đổng Thiên Vương', 'Phố Phùng Khắc Khoan', 'Đường Quỳnh Lôi',
+               'Phố Quỳnh Mai', 'Phố Tạ Quang Bửu', 'Đường Tâm tháng ba', 'Đường Tam Trinh', 'Đường Tân Lạc', 'Phố Tăng Bạt Hỗ', 'Đường Tây Kết', 'Phố Thái Phiên', 'Phố Thể Giao', 'Phố Thi Sách', 'Phố Thịnh Yên', 'Đường Thọ Lão', 'Phố Tô Hiến Thành', 'Phố Trần Bình Trọng', 'Phố Trần Cao Vân', 'Phố Trần Đại Nghĩa', 'Phố Trần Hưng Đạo', 'Đường Trần Khát Chan', 'Phố Trần Nhân Tông',
+               'Phố Trần Thành Tông', 'Đường Trần Khánh Du', 'Phố Trần Xuân Soạn', 'Phố Triệu Việt Vương', 'Đường Trương Định', 'Đường Văn Hồi', 'Đường Vân Hồ III', 'Đường Vạn Kiếp', 'Đường Vĩnh Tuy', 'Phố Võ Thị Sáu', 'Phố Vũ Hữu Lợi', 'Phố YEC Xanh', 'Phố Yên Bài 1', 'Phố Yên Bài 2', 'Phố Yên Lạc', 'Phố Yết Kiêu' 
+                
+            ])
+        elif selected_value == "Quận Thanh Xuân":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Phố Khương Hạ', 'Đường Lê Văn Lương', 'Đường Khương Trung mỗi', 'Đường Lương Thế Vinh', 'Đường Ngõ 211 Khương Trung', 'Phố Ngụy Như Kon Tum', 'Đường Ngụy Như Kontum, Nhân Chính', 'Đường Nguyễn Đức Quý', 'Phố Nguyễn Huy Tưởng', 'Phố Nguyễn Ngọc Nai', 
+                'Đường Nguyễn Ngọc Vũ', 'Phố Nguyễn Quý Đức', 'Phố Nguyễn Thị Đinh', 'Đường Nguyễn Tuân', 'Phố Nguyễn Văn Troi', 'Đường Nguyễn Xiển', 'Phố Nhân Hòa', 'Phố Phan Đình Giót', 'Phố Nguyễn Viết Xuân', 'Phố Lê Trọng Tấn', 'Phố Phương Liệt', 'Phố Quan Nhân', 
+                'Phố Tô Vĩnh Diện', 'Đường Trần Điền', 'Đường Trường Chính', 'Phố Vũ Hữu', 'Đường Vũ Tông Phan', 'Phố Vương ThừaĐường Vũ Trọng Phung'         
+                
+            ])
+        elif selected_value == "Quận Bắc Từ Liêm":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Cầu Thăng Long', 'Đường CN 7', 'Đường CN 8', 'Đường CN 9', 'Đường Cổ Nhuế', 'Đường Đại Cát', 'Đường Đông Ngạc', 'Đường Đường 69', 'Đường Cầu Diễn', 'Đường CN4', 'Đường không tên', 'Đường Đường Phú Dien', 'Đường Hoàng Quốc Viêt', 'Đường Hoàng Xã',
+                'Đường Lê Văn Hiến', 'Đường Liên Cơ', 'Đường Liên Mạc', 'Đường Liên Xã', 'Đường Lũng Lô A', 'Đường Ngọa Long', 'Đường Nông Lâm', 'Đường Ngõ 46 Hoàng Liên', 'Phố Nhổn', 'Đường Phạm Tuấn Tài', 'Đường Phan Bá Vành', 'Đường Phố Viên', 'Đường Phú Diễn', 'Đường Phú Kiều', 
+                'Đường Phúc Lý Thôn Đĩnh Quán', 'Phố Tân Phong Thon Ha', 'Đường Tân Xuân', 'Đường Tăng Thiết Giáp', 'Đường Thượng Cát', 'Đường Thụy Phương',
+                'Đường Tổ dân phố Phúc Lý', 'Đường Trần Cung', 'Đường Văn Tri', 'Đường Xuân Đỉnh', 'Đường Yên Nội'
+                
+            ])
+        elif selected_value == "Quận Nam Từ Liêm":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Trung Văn', 'Đường Vạn Phúc', 'Đường Hàm Nghi', 'Đường Hàm Nghi', 'Đường Hồ Mễ Tri', 'Phố Hỏa Lồ', 'Đường Hoài Thanh', 'Đường Hoàng Công Chât', 'Phố Hòe Thị', 'Đường KĐT Mễ Trì Thượng, Mễ Trì', 'Đường Khu đô thị Mě Tri Ha', 'Đường Lăng - Hòa Lac', 'Đường Lê Đức Thọ', 'Đường Liên Cơ', 'Đường LS 5', 'Đường Mễ Trì', 'Đường Miêu Nha', 'Đường Mỹ Đình', 'Đường Ngân Hàng', 'Đường Lưu Hữu Phước', 'Đường Ngọc Trục', 'Đường Nguyễn Cơ Thạch', 'Đường Nguyễn Đổng Chi', 'Đường Nguyễn Hoàng', 'Đường Nguyễn Trãi', 'Đường Nhuệ Giang', 
+                'Đường Phạm Hùng', 'Đường Phố Cầu Cóc', 'Đường Phổ Thiên Hien', 'Đường Phú Diễn', 'Đường Phủ Đô', 'Đường Phùng Khoang', 'Đường Phương Canh', 'Đường Quang Tiền', 'Đường Quốc lộ 32', 'Đường Tân Mỹ', 'Đường Tây Mỗ', 'Đường Thị Cẩn', 'Đường Thiên Hiền', 'Đường Tỉnh lộ 72', 'Đường Tố Hữu', 'Đường Trần Hữu Duc', 'Đường Trần Văn Lai', 'Đường Trung Văn', 'Đường Tôn Thất Thuyết',
+                'Đường Trần Văn Can', 'Đường Vũ Quỳnh', 'Đường Vũ Đình Tung', 'Đường Vườn Cam'
+                
+            ])
+        elif selected_value == "Thị xã Sơn Tây":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Bình Sơn', 'Đường Bốt Cũ', 'Đường Cao Sơn', 'Phố Chùa Thông', 'Đường Đại Hà', 'Đường Đồi Chợ', 'Đường Đại Quang', 'Đường Chùa Thông, Son Loc', 'Đường Đốc Ngũ', 'Đường Đồi Chẻ', 'Đường Đông A', 'Đường Đồng Giếng', 'Đường Đồng Mô', 'Đường Lê Lợi', 'Đường Cầu Tri', 'Đường Đinh Tiên Hoàng', 'Đường Đối Tầm', 'Đường Đối Vua', 'Đường Thôn Bổng', 'Đường Hoàng Diệu', 'Đường Phạm Ngũ Lão', 'Phố Phó Đức Chính', 'Phố Hàng', 'Phố Phủ Xã', 'Đường Đường Lâm', 'Đường Mai Trai', 'Đường Nguyễn Thái Hoc', 'Đường Phố Hàng', 'Phố Ngô Quyền', 'Đường Phủ Nhi', 'Đường Sơn Lộc', 'Đường Tân Phủ', 'Đường Trung Vương', 'Đường Tùng Thiện', 'Phố Thiên Mã',
+                'Đường Phùng Khắc Khoan', 'Đường Quang Trung', 'Đường Quốc lộ 21', 'Phố Thiều Xuân', 'Phố Tranh Trinh'
+                
+            ])
+        elif selected_value == "Huyện Ba Vì":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Yên Bài", "Đương Vật Lại"
+                
+            ])
+        elif selected_value == "Huyện Chương Mỹ":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                'Đường Cắn Hữu', 'Đường Chi Nê-Tĩnh Mỹ', 'Đường Địa Chiến Luợc', 'Đường Đồng Lê', 'Đường Mới Yên Cốc', 'Đường N5 KCN Phủ Nghĩa', 'Đường T3 KCN Phủ Nghĩa', 'Đường Thanh Niên KCN Phú Nghĩa', 'Đường Tương Lai', 'Đường Hợp Nhất', 'Đường Khu Tân Binh', 'Đường Hạnh Phúc', 'Đường Hòa Sơn', 'Đường Km 28 +600', 'Đường Quốc lộ 21', 'Đường Quốc lộ 6', 'Đường Thôn Đồi Hai', 'Đường Tỉnh lộ 419', 'Đường Trung Hòa Trưởng Yên', 'Đường Viết Tuấn', 'Đường Yên Sơn'
+                
+            ])
+        elif selected_value == "Huyện Đan Phượng":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Quốc lộ 32"
+                
+            ])
+        elif selected_value == "Huyện Đông Anh":   
+            self.comboBox_3.addItems([
+                
+                "Đường Cầu Lớn-Nam Hồng", 'Đường Bắc Hà', 'Đường Bờ Hồ', 'Đường Xã Kim Chung', 'Đường Bắc Thăng Long-Hải Bối', 'Đường Bắc Thăng Long-Nội Bài', 'Đường Cao Lỗ', 'Đường Cầu Đôi', 'Đường Cổ Loa Đường Đại Mạch', 
+                'Đường Cổ Văn Đường Đàn Dị', 'Đường Đa Lộc', 'Đường Cầu Lớn- Nam Hồng', 'Đường Đào Cam Moc', 'Đường Đồng Dầu', 'Đường Đông Hội', 'Đường Đồng Quan', 'Đường Đào Duy Tung', 'Đường Đông Trù', 'Đường Dục Nội', 'Đường Dục Tủ', 'Đường Cụt', 'Đường Xóm Trại', 'Đường Ga Đông Anh', 'Đường Hà Phong', 'Đường Hội Phụ', 'Đường Đường số 238', 'Đường Lại Đà Lương Nỗ', 'Đường Lâm Tiên', 'Đường Lê Hữu Tựu', 'Đường Liên Hà', 'Đường Liên Xã', 'Đường Mai Hiền', 'Đường Nghĩa Vũ', 'Phố Tả', 'Đường Phố Cho Nguyên Khê', 'Đường Phương Trạch', 'Đường Quốc lộ 23', 'Đường Quốc lộ 238', 'Đường Quốc Lộ 3', 'Đường Quốc Lộ 5', 'Đường Thôn Đìa- Nam Hồng', 'Đường Thụy Lâm Uy Nỗ', 'Đường Tiên Hội Đường Văn Hà', 'Đường Tổ 54', 'Đường Uy Mỗ', 'Đường Văn Trị', 'Đường Võ Nguyên Giáp', 'Đường Võ Nguyễn Giáp', 'Đường Xóm Đông', 'Đường Xuân Canh'
+                                      
+                
+            ])
+        elif selected_value == "Huyện Gia Lâm":   
+            self.comboBox_3.addItems([
+                
+                'Đường A Dão Nguyên', 'Đường Cầu Vượt Phú Thị', 'Đường Cửu Việt 1', 'Đường Cửu Việt 2', 'Đường Đình Xuyên', 'Đường Đặng Phúc Thông', 'Đường A', 'Đường B', 'Đường C', 'Đường G', 'Đường Dương Hà - Đình Xuyên', 'Đường K612', 'Đường T', 'Đường Dương Xá', 'Đường Hà Huy Tập', 'Đường Kênh Dài', 'Đường Nguyễn Bình', 'Đường Ngô Xuân Quảng', 'Đường Phan Đăng Luu', 'Đường Phong Xuân', 'Đường Nguyễn Đức Thuận', 'Đường Nguyễn Huy Nhuận', 'Đường Ninh Hiệp', 'Đường QL 39', 'Đường Quốc Lộ 1', 'Đường Quốc Lộ 5', 'Đường Thị trấn Trâu quỳ', 'Đường Thiên Đức', 'Đường Thôn Bát Trăng', 'Đường Thủ Y', 'Đường Tỉnh Lộ 179', 'Đường Thôn Hàn Lac', 'Đường Thôn Tô Khê',
+                'Đường Thôn Trần Tão', 'Đường Tỉnh Lộ 181', 'Đường Tỉnh lộ 195', 'Đường Tỉnh Lộ 20', 'Đường Tỉnh Lộ 270', 'Đường Trâu Quy', 'Đường Trung Quan', 'Đường Voi Phục', 'Đường Xóm 1', 'Đường Ỷ Lan', 'Đường Yên Thường'
+                
+            ])
+        elif selected_value == "Huyện Hoài Đức":   
+            self.comboBox_3.addItems([
+                
+                "Đường Quốc lộ 32","Đường Lê Trọng Tấn","Đường Đại lộ Thăng Long"
+                
+            ])
+        elif selected_value == "Huyện Mê Linh":   
+            self.comboBox_3.addItems([
+                
+                "Đường Quốc lộ 23", "Đường Quang Minh", "Đường Hà Phong"
+                
+            ])
+        elif selected_value == "Huyện Phúc Thọ":   
+            self.comboBox_3.addItems([
+                
+                "Đường Quốc lộ 32"
+                
+            ])
+        elif selected_value == "Huyện Quốc Oai":   
+            self.comboBox_3.addItems([
+                
+                "Quốc lộ 21A,", "Đường Láng Hòa Lạc", "Đường Liên Xã"
+                
+            ])
+        elif selected_value == "Huyện Sóc Sơn":   
+            self.comboBox_3.addItems([
+                
+                'Đường Quốc Lộ 3', "Đường Thắng Trí", "Đường Quốc Lộ 2"
+                
+            ])
+        elif selected_value == "Huyện Thạch Thất":   
+            self.comboBox_3.addItems([
+                
+                "Tỉnh lộ 420", "Tỉnh lộ 420", "Tỉnh lộ 446"        
+                
+            ])
+        elif selected_value ==  "Huyện Thanh Oai":   
+            self.comboBox_3.addItems([
+                
+                "Tỉnh lộ 427", "Đường Quốc lộ 21B", "Đường Quốc lộ 21B"
+                
+            ])
+        elif selected_value ==  "Huyện Thanh Trì":   
+            self.comboBox_3.addItems([
+                
+                "Đường Vĩnh Quỳnh", "Đường Vĩnh Quỳnh", "Đường Thanh Liệt"
+                
+            ])
+        elif selected_value ==  "Huyện Thường Tín":   
+            self.comboBox_3.addItems([
+                
+                "Đường Nguyễn Du,", "Đường Liên Thôn"
+                
+            ])
+        elif selected_value =="Huyện Ứng Hòa":   
+            self.comboBox_3.addItems([
+                
+                "Quốc lộ 21B"
+
+            ])
+            
+            
+            # HO CHi Minh
+            
+            
+            
+        elif selected_value =="Quận 1":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Cô Giang", "Đường Cô Bắc",
+                "Bà Lê Chân",
+                "Huyền Chân Công Chúa",
+                "Nguyễn Huệ",
+                "Phan Liêm",
+                "Bến Chương Dương",
+                "Huỳnh Khương Ninh",
+                "Nguyễn Hữu Cảnh",
+                "Phan Ngữ",
+                "Bùi Thị Xuân",
+                "Huỳnh Thúc Kháng",
+                "Nguyễn Hữu Cầu",
+                "Phan Tôn",
+                "Bùi Viện",
+                "Khánh Hội",
+                "Nguyễn Huy Tự",
+                "Phan Văn Đạt",
+                "Cách Mạnh Thánh 8",
+                "Ký Con",
+                "Nguyễn Khắc Nhu",
+                "Phan Văn Trường",
+                "Calmette",
+                "Lê Anh Xuân",
+                "Nguyễn Phi Khanh",
+                "Phó Đức Chính",
+                "Cao Bá Nhạ",
+                "Lê Công Kiều",
+                "Nguyễn Siêu",
+                "Phùng Khắc Khoan",
+                "Cáo Bá Quát",
+                "Lê Duẩn",
+                "Nguyễn Thái Bình",
+                "Sương Nguyệt Ánh",
+                "Cây Điệp",
+                "Lê Lai",
+                "Nguyễn Thái Học",
+                "Thạch Thị Thanh",
+                "Chu Mạnh Chinh",
+                "Lê Lợi",
+                "Nguyễn Thành Ý",
+                "Thái Văn Lung",
+                "Cô Bắc",
+                "Lê Thánh Tôn",
+                "Nguyễn Thị Lựu",
+                "Thi Sách",
+                "Cô Giang",
+                "Lê Thị Hồng Gấm",
+                "Nguyễn Thị Mình Khai",
+                "Thủ Khoa Huân",
+                "Cống Quỳnh",
+                "Lê Thị Riêng",
+                "Nguyễn Thị Nghĩa"
+
+            ])
+        elif selected_value =="Quận 2":   
+            self.comboBox_3.addItems([
+                "Chọn Dường Phố",
+                "Đường Cao Đức Lân",
+                "Bát Nàn",
+            "Đường số 20",
+            "Đường số 58",
+            "Nguyễn Hoàng",
+            "Bình Minh",
+            "Đường số 21",
+            "Đường số 59",
+            "Nguyễn Quý Cảnh",
+            "Bình Trưng",
+            "Đường số 22",
+            "Đường số 6",
+            "Nguyễn Thị Định",
+            "Bình Trưng Đông",
+            "Đường số 23",
+            "Đường số 60",
+            "Nguyễn Trọng Quản",
+            "Bùi Tá Hán",
+            "Đường số 24",
+            "Đường số 61",
+            "Nguyễn Trung Nguyệt",
+            "Đại lộ Đông Tây",
+            "Đường số 25",
+            "Đường số 63",
+            "Nguyễn Tư Nghiêm",
+            "Đặng Hữu Đông",
+            "Đường số 26",
+            "Đường số 64",
+            "Nguyễn Tuyến",
+            "Đặng Hữu Phổ",
+            "Đường số 27",
+            "Đường số 65",
+            "Nguyễn Văn Cừ",
+            "Đặng Tiến Đông",
+            "Đường số 28",
+            "Đường số 66",
+            "Nguyễn Văn Giai",
+            "Đỗ Quang",
+            "Đường số 29",
+            "Đường số 7",
+            "Nguyễn Văn Giáp",
+            "Đỗ Xuân Hợp",
+            "Đường số 3" 
+
+            ])
+        elif selected_value =="Quận 4":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Vĩnh Khánh"
+                "Bến Vân Đồn",
+                "Đường số 19",
+                "Đường số 37",
+                "Hoàng Diệu",
+                "Dân Sinh",
+                "Đường số 2",
+                "Đường số 38",
+                "Khánh Hội",
+                "Đinh Lễ",
+                "Đường số 20",
+                "Đường số 39",
+                "Lê Quốc Hưng",
+                "Đoàn Nhữ Hài",
+                "Đường số 21",
+                "Đường số 4",
+                "Lê Thạch",
+                "Đoàn Văn Bơ",
+                "Đường số 22",
+                "Đường số 40",
+                "Lê Văn Linh",
+                "Đường số 1",
+                "Đường số 23",
+                "Đường số 41",
+                "Ngô Văn Sở",
+                "Đường số 10",
+                "Đường số 24",
+                "Đường số 42",
+                "Nguyễn Hữu Hào",
+                "Đường số 10A",
+                "Đường số 25",
+                "Đường số 43",
+                "Nguyễn Khoái",
+                "Đường số 10B",
+                "Đường số 28",
+                "Đường số 44",
+                "Nguyễn Tất Thành",
+                "Đường số 10C",
+                "Đường số 29",
+                "Đường số 45",
+                "Nguyễn Thần Hiến",
+                "Đường số 11",
+                "Đường số 3",
+                "Đường số 46",
+                "Nguyễn Trường Tộ",
+                "Đường số 12",
+                "Đường số 30",
+                "Đường số 47",
+                "Tân Vĩnh",
+                "Đường số 12A",
+                "Đường số 31",
+                "Đường số 48",
+                "Tôn Đản"
+
+            ])
+        elif selected_value =="Quận 5":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Nguyễn Trãi", "Đường Nguyễn Tri Phương", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        elif selected_value =="Quận 6":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Hậu Giang","Đường Nguyễn Trãi", "Đường Nguyễn Tri Phương"
+
+            ])
+        elif selected_value =="Quận 7":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Phạm Hữu Lầu", "Đường Nguyễn Tri Phương", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        elif selected_value =="Quận 8":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận 10":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Cách Mạng Tháng 8", "Đường Tô Hiến Thành", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận 11":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Lãnh Bình Thăng", "Đường Ba Tháng Hai", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận 12":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Hà Huy Giáp", "Đường Quốc Lộ 1A", "Đường Dương Thị Giang", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Bình Tân":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Số 16A", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Bình Thạnh":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Gò Vấp":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Phú Nhuận":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Tân Bình":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Tân Phú":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Cần Giờ":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Hóc Môn":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Bình Chánh":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Củ Chi":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Nhà Bè":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+            
+            
+                                    # Đà Nẵng
+                                    
+        elif selected_value == "Quận Hải Châu":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Huy Cận", "Đường Hàn Thuyên", "Đường Đống Đa", "Đường Cao Thắng", "Đường Lê Đình Lý",
+                "Đường Hùng Vương",
+                "Đường Lê Lợi",
+                "Buong 3.2",
+                "Đường Nguyễn Chí Thanh",
+                "Đường Phan Châu Trinh",
+                "Đường Tiểu La",
+                "Đường 29",
+                "Đường Quang Trung",
+                "Đường Đống Đa",
+                "Đường Nguyễn Du",
+                "Đường Lý Tự Trọng",
+                "Đường Hoàng Diệu",
+                "Đường Ông Ích Khiêm",
+                "Đường Nguyễn Hoàng",
+                "Đường Thái Phiên",
+                "Đường Lê Hồng Phong",
+                "Đường Hoàng Văn Thụ",
+                "Đường Yên Bái",
+                "Đường Trung Nữ Vương",
+                "Đường Ngô Gia Tự"
+
+            ])                        
+                                    
+        elif selected_value == "Quận Thanh Khê":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Nguyễn Tất Thành", "Đường Yên Khê 2", "Đường Tôn Thất Tùng", "Đường Nguyễn Tri Phương",
+                "Đường Lê Đình Lý",
+                "Đường Nguyễn Tất Thành",
+                "Đường Thái Thị Bô",
+                "Đường Lê Độ",
+                "Đường Trường Chinh",
+                "Đường Hải Phòng",
+                "Đường Điện Biên Phủ",
+                "Đường Hà Huy Tập",
+                "Đường Trần Cao Vân",
+                "Đường Nguyễn Tri Phương",
+                "Đường Lê Lợi",
+                "Đường Hùng Vương",
+                "Đường Lê Đình Lý",
+                "Đường Duy Tân",
+                "ĐƯỜNG TIỂU LỘ",
+                "Đường Nguyễn Phước Nguyễn",
+                "Đường Xô Viết Nghệ Tĩnh",
+                "Đường 29"
+
+            ])                        
+                                    
+        elif selected_value == "Quận Liên Chiểu":   
+            self.comboBox_3.addItems([
+                
+                "Đường Nguyễn Lương Bằng", "Đường Âu Cơ", "Đường Huỳnh Dạng", "Đường Hồ Quý Ly",
+                "Đường Nguyễn Lương Bằng",
+                "Đường Nguyễn Tất Thành",
+                "Đường Bàu Tràm",
+                "Đường Âu Cơ",
+                "Đường Đoàn Phù Thủ",
+                "Buong Nam Cac",
+                "Đường Lạc Long Quân",
+                "Đường Nguyễn Sinh Sắc",
+                "Đường Kinh Dương Vương",
+                "Đường Nguyễn Chánh",
+                "Buong Tran Dinh Tr",
+                "Đường Hoàng Văn Thái",
+                "Đường Tố Hữu",
+                "Đường Tôn Đức Thắng"
+
+            ])                        
+                                    
+        elif selected_value == "Quận Cẩm Lệ":   
+            self.comboBox_3.addItems([
+                
+                "Đường Phong Bắc 20", "Đường Trần Phước Thành", "Đường Thanh Sơn", "Đường Trung Sơn"
+
+            ])                        
+                                    
+        elif selected_value =="Quận Ngũ Hành Sơn":   
+            self.comboBox_3.addItems([
+                
+                "Đường Chu Lai", "Đường Võ Chí Công", "Đường Trần Thị Lý", "ường Võ Nguyên Giáp"
+
+            ])                        
+                                    
+        elif selected_value =="Quận Sơn Trà":   
+            self.comboBox_3.addItems([
+                
+                "Đường Lê Hữu Trác", "Đường Phó Đức Chính", "Đường Nguyễn Lâm", "Đường Trần Bình Trọng"
+
+            ])                        
+                                    
+        elif selected_value =="Huyện Hòa Vang":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                        
+                                    
+        elif selected_value =="Huyện Hoàng Sa":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                        
+                                    
+
+                            # Hải Phòng
+                            
+                        
+                            
+        elif selected_value =="Quận Hồng Bàng":   
+            self.comboBox_3.addItems([
+                "Chọn đường phố",
+                "An Chân",
+                "An Lạc",
+                "An Trực",
+                "Bạch Đằng",
+                "Bãi Sậy",
+                "Bến Bính",
+                "Cam Lộ",
+                "Cao Sơn",
+                "Cao Thắng",
+                "Chương Dương",
+                "Cống Mỹ",
+                "Cử Bình",
+                "Cù Chính Lan",
+                "Đào Đô",
+                "Dầu Lửa",
+                "Điện Biên Phủ",
+                "Đình Hạ",
+                "Đinh Tiên Hoàng",
+                "Do Nha",
+                "Đốc Tít",
+                "Đội Văn",
+                "Đống Hương",
+                "Hạ Lý",
+                "Hà Nội",
+                "Hàm Nghi",
+                "Hồ Xuân Hương",
+                "Hoàng Diệu",
+                "Hoàng Văn Thụ",
+                "Hồng Bàng",
+                "Hùng Duệ Vương",
+                "Hùng Vương",
+                "Ký Con",
+                "Kỳ Đồng",
+                "Lãn Ông",
+                "Lê Đại Hành",
+                "Lệnh Bá Chính Trọng",
+                "Lý Thường Kiệt",
+                "Lý Tự Trọng",
+                "Minh Khai",
+                "Nguyễn Hồng Quân",
+                "Nguyễn Thái Học",
+                "Nguyễn Tri Phương",
+                "Nguyễn Trung Thành",
+                "Nguyễn Văn Túy",
+                "Núi Voi",
+                "Phạm Hồng Thái",
+                "Phạm Phú Thứ",
+                "Phan Bội Châu",
+                "Phan Chu Trinh",
+                "Phan Đăng Lưu",
+                "Phan Đình Phùng",
+                "Quang Đàm",
+                "Quang Trung",
+                "Quý Minh",
+                "Tam Bạc",
+                "Tán Thuật",
+                "Tản Viên",
+                "Thanh Niên",
+                "Thất Khê",
+                "Thế Lữ",
+                "Tiến Đức",
+                "Tôn Đức Thắng",
+                "Tôn Thất Thuyết",
+                "Tông Đản",
+                "Trại Sơn",
+                "Trần Hưng Đạo",
+                "Trần Phú",
+                "Trần Quang Khải",
+                "Trạng Trình",
+                "Trương Văn Lực",
+                "Vạn Kiếp"
+
+            ])
+        
+        elif selected_value =="Quận Ngô Quyền":   
+            self.comboBox_3.addItems([
+                "Chọn đường phố",
+                "An Đà",
+                "An Khê",
+                "An Kim Hải",
+                "Bạch Thái Bưởi",
+                "Bùi Viện",
+                "Bùi Xuân Hoài",
+                "Phố Cấm",
+                "Cầu Đất",
+                "Chu Văn An",
+                "Đình Đông",
+                "Đỗ Chính",
+                "Đỗ Nhuận",
+                "Đoạn Xá",
+                "Đông Khê",
+                "Hai Bà Trưng",
+                "Hào Khê",
+                "Hoàng Hữu Nhân",
+                "Hoàng Mậu",
+                "Hoàng Minh Giám",
+                "Kỳ Phú",
+                "Lạch Tray",
+                "Lê Chân",
+                "Lê Hồng Phong",
+                "Lê Lai",
+                "Lê Lợi",
+                "Lê Quang Đạo",
+                "Lê Quỳnh",
+                "Lê Thánh Tông",
+                "Lương Khánh Thiện",
+                "Lý Thành Long",
+                "Nam Cao",
+                "Nam Sơn",
+                "Ngô Quyền",
+                "Ngô Tất Tố",
+                "Nguyễn Bình",
+                "Nguyễn Bỉnh Khiêm",
+                "Nguyễn Công Hoan",
+                "Nguyễn Đình Chiểu",
+                "Nguyễn Hải Thanh",
+                "Nguyễn Hữu Tuệ",
+                "Nguyễn Huy Tưởng",
+                "Nguyễn Khuyến",
+                "Nguyễn Trãi",
+                "Nguyễn Văn Linh",
+                "Nguyễn Xuân Nguyên",
+                "Phùng Chí Kiên",
+                "Phụng Pháp",
+                "Thái Phiên",
+                "Thanh Niên",
+                "Thiên Lôi",
+                "Tiên Nga",
+                "Tô Hiệu",
+                "Trần Nhật Duật",
+                "Trần Phú",
+                "Văn Cao",
+                "Vạn Mỹ",
+                "Võ Thị Sáu",
+                "Vũ Trọng Khánh"
+
+            ])
+        
+        elif selected_value =="Quận Lê Chân":   
+            self.comboBox_3.addItems([
+                "Chọn đường phố",
+                "An Dương",
+                "An Kim Hải",
+                "Bùi Viện",
+                "Cát Cụt",
+                "Cầu Cáp",
+                "Cầu Đất",
+                "Cầu Niệm",
+                "Chợ Con",
+                "Chợ Đôn",
+                "Chợ Hàng",
+                "Chùa Hàng",
+                "Công Nhân",
+                "Dân Lập",
+                "Đặng Ma La",
+                "Đào Nhuận",
+                "Đình Đông",
+                "Đinh Nhu",
+                "Đoàn Kết",
+                "Đồng Thiện",
+                "Đông Trà",
+                "Dư Hàng",
+                "Dương Đình Nghệ",
+                "Hai Bà Trưng",
+                "Hải Đăng",
+                "Hàng Kênh",
+                "Hào Khê",
+                "Hồ Sen",
+                "Hoàng Minh Thảo",
+                "Hoàng Ngọc Phách",
+                "Hoàng Quý",
+                "Kênh Dương",
+                "Khúc Hạo",
+                "Khúc Thừa Dụ",
+                "Kỳ Phú",
+                "Lam Sơn",
+                "Lâm Tường",
+                "Lán Bè",
+                "Lê Chân",
+                "Lê Văn Thuyết",
+                "Lý Thành Long",
+                "Mê Linh",
+                "Miếu Hai Xã",
+                "Mương Hồ Sen",
+                "Ngô Kim Húc",
+                "Ngô Kim Tài",
+                "Ngọc Trai",
+                "Nguyễn Bình",
+                "Nguyễn Công Hòa",
+                "Nguyễn Đức Cảnh",
+                "Nguyễn Tất Tố",
+                "Nguyễn Tường Loan",
+                "Nguyễn Văn Linh",
+                "Nhà Thờ",
+                "Nhà Thương",
+                "Phạm Hữu Điều",
+                "Phạm Huy Thông",
+                "Phạm Tử Nghi",
+                "Quán Nam",
+                "Tam Bạc",
+                "Thích Trí Hải",
+                "Thiên Lôi",
+                "Tô Hiệu",
+                "Tôn Đức Thắng",
+                "Trại Lẻ",
+                "Trần Nguyên Hãn",
+                "Trần Phú",
+                "Trực Cát",
+                "Vĩnh Cát",
+                "Vĩnh Tiến",
+                "Võ Nguyên Giáp",
+                "Vòng Hồ Sen",
+                "Vũ Chí Thắng"
+
+            ])
+        
+        elif selected_value =="Quận Hải An":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+                    
+        elif selected_value =="Quận Kiến An":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value ==  "Quận Đồ Sơn":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])      
+        
+        elif selected_value =="Quận Dương Kinh":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện Thuỷ Nguyên":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện An Dương":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện An Lão":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện Tiên Lãng":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện Vĩnh Bảo":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện Cát Hải":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        elif selected_value =="Huyện Bạch Long Vĩ":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+        
+        
+                                        # CẦN THƠ
+        
+        elif selected_value =="Quận Ninh Kiều":   
+            self.comboBox_3.addItems([
+                
+                "Chọn đường phố", "Đường Nguyễn Văn Cừ", "3 tháng 2",
+                "30 tháng 4",
+                "Bà Huyện Thanh Quan",
+                "Bà Triệu",
+                "Bế Văn Đàn",
+                "Bùi Thị Xuân",
+                "Cách Mạng Tháng Tám",
+                "Cao Bá Quát",
+                "Cao Thắng",
+                "Châu Văn Liêm",
+                "Chu Văn An",
+                "Đề Thám",
+                "Điện Biên Phủ",
+                "Đinh Công Tráng",
+                "Đinh Tiên Hoàng",
+                "Đoàn Thị Điểm",
+                "Đồng Khởi",
+                "Hai Bà Trưng",
+                "Hải Thượng Lãn Ông",
+                "Hồ Bún Xáng",
+                "Hồ Tùng Mậu",
+                "Hồ Xuân Hương",
+                "Hòa Bình",
+                "Hoàng Quốc Việt",
+                "Hoàng Văn Thụ",
+                "Hùng Vương",
+                "Huỳnh Cương",
+                "Huỳnh Thúc Kháng",
+                "Lê Anh Xuân",
+                "Lê Bình",
+                "Lê Chân",
+                "Lê Lai",
+                "Lê Lợi",
+                "Lê Thánh Tôn",
+                "Lê Văn Thuấn",
+                "Lộ Vòng Cung",
+                "Lương Định Của",
+                "Lý Chính Thắng",
+                "Lý Hồng Thanh",
+                "Lý Thường Kiệt",
+                "Lý Tự Trọng",
+                "Mạc Đĩnh Chi",
+                "Mạc Thiên Tích"
+
+            ])
+            
+        elif selected_value =="Quận Bình Thuỷ":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "Bùi Hữu Nghĩa",
+                "Cách Mạng Tháng Tám",
+                "Đặng Thị Nhường",
+                "Đặng Thùy Trâm",
+                "Đặng Văn Dầy",
+                "Đinh Công Chánh",
+                "Đỗ Trọng Văn",
+                "Đồng Ngọc Sứ",
+                "Đồng Văn Cống",
+                "Hồ Trung Thành",
+                "Huỷnh Mẫn Đạt",
+                "Huỷnh Phan Hộ",
+                "Lạc Long Quân",
+                "Lê Hồng Phong",
+                "Lê Thị Hồng Gấm",
+                "Lê Văn Bì",
+                "Lê Văn Sô",
+                "Nguyễn Chánh Tâm",
+                "Nguyễn Chí Thanh",
+                "Nguyễn Đệ",
+                "Nguyễn Thanh Sơn",
+                "Nguyễn Thị Tạo",
+                "Nguyễn Thị Tính",
+                "Nguyễn Thị Tồn",
+                "Nguyễn Thông",
+                "Nguyễn Truyền Thanh",
+                "Nguyễn Văn Linh",
+                "Nguyễn Viết Xuân",
+                "Phạm Hữu Lầu",
+                "Phạm Ngọc Hưng",
+                "Phạm Thị Bang",
+                "Rạch Ông Đội",
+                "Rạch Ông Kính",
+                "Tạ Thị Phi",
+                "Thái Thị Nhạn",
+                "Tô Vĩnh Diện",
+                "Trần Quang Diệu",
+                "Trần Văn Nghiêm",
+                "Võ Văn Kiệt",
+                "Vườn Mận",
+                "Xóm Lưới",
+                "Xuân Hồng"
+
+            ])
+            
+        elif selected_value =="Quận Thốt Nốt":   
+            self.comboBox_3.addItems([
+                "Chọn Đường Phố",
+                "30 tháng 4",
+                "Bạch Đằng",
+                "Hòa Bình",
+                "Lê Lợi",
+                "Lê Thị Tạo",
+                "Lương Thế Vinh",
+                "Mai Văn Bộ",
+                "Nguyễn Công Trứ",
+                "Nguyễn Hữu Cảnh",
+                "Nguyễn Kim",
+                "Nguyễn Thái Học",
+                "Nguyễn Thị Lưu",
+                "Nguyễn Trọng Quyền",
+                "Nguyễn Trung Trực",
+                "Nguyễn Tuân",
+                "Nguyễn Văn Kim",
+                "Phan Đình Giót",
+                "Sư Vạn Hạnh",
+                "Thanh Niên",
+                "Thoại Ngọc Hầu",
+                "Trịnh Hoài Đức",
+                "Trưng Nữ Vương",
+                "Tự Do",
+                "Võ Duy Dương",
+                "Võ Thị Kim Anh",
+                "Lê Thị Tám",
+                "Hồ Biểu Chánh",
+                "Huỷnh Năng Nhiêu"
+
+            ])
+            
+            
+            
+        elif selected_value =="Quận Cái Răng":   
+            self.comboBox_3.addItems([
+                
+                "Chọn Đường Phố","Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Quận Ô Môn":   
+            self.comboBox_3.addItems([
+                
+                "Chọn Đường Phố","Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Huyện Cờ Đỏ":   
+            self.comboBox_3.addItems([
+                
+                "Chọn Đường Phố","Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Huyện Phong Điền":   
+            self.comboBox_3.addItems([
+                
+                "Chọn Đường Phố","Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Huyện Thới Lai":   
+            self.comboBox_3.addItems([ "Chọn Đường Phố",
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        elif selected_value =="Huyện Vĩnh Thạnh":   
+            self.comboBox_3.addItems([
+                
+                "Chọn Đường Phố","Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])
+            
+        
+                                                            # Tỉnh Nam Định               
+        
+        elif selected_value =="Thành phố Nam Định":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Ý Yên":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Xuân Trường":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Vụ Bản":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Trực Ninh":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Nghĩa Hưng":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                  
+            
+            
+              
+                            
+        elif selected_value =="Giao Thủy":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Hải Hậu":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Mỹ Lộc":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                            
+        elif selected_value =="Nam Trực":   
+            self.comboBox_3.addItems([
+                
+                "Đường Dương Quang Đông", "Đường Trần Phú", "Đường Ký Hòa", "Đường Trần Bình Trọng"
+
+            ])                    
+                    
+                    
+                                                        # Bà Rịa Vũng Tàu         
+        
+        elif selected_value =="Huyện Châu Đức":   
+            self.comboBox_3.addItems(["Chọn Đường Phố",
+                                      "Au Co",
+                                        "Đinh Tiên Hoàng",
+                                        "Buong 98",
+                                        "Đường Huyện Đô",
+                                        "Đường giáp ranh",
+                                        "Hoàng Hoa Thám",
+                                        "Hùng Vương",
+                                        "Lạc Long Quân",
+                                        "Lê Lai",
+                                        "Lý Thường Kiệt",
+                                        "Ngô Quyền",
+                                        "Nguyễn Du",
+                                        "Nguyễn Chí Thanh",
+                                        "Nguyễn Văn Trỗi",
+                                        "Những trục đường trong khi Trung tâm thương mại",
+                                        "Phùng Hưng",
+                                        "Trần Hưng Đạo",
+                                        "Trần Quốc Toàn",
+                                        "Đường 304 (Đường SỐ 25 CŨ)",
+                                        "Đường Nguyễn Trãi (đường số 11 cũ)",
+                                        "Đường Hồ Tùng Mậu (Đường quy hoạch số 20 CŨ)",
+                                        "Đường quy hoạch KHU 20"
+                                      ])
+            
+        elif selected_value =="Huyện Đất Đỏ":   
+            self.comboBox_3.addItems(["Chọn Đường Phố","Thị trấn Đất Đỏ", "Đường Hàn Mạc Tử", "Đường Lương Thế Vinh", "đường Lê Thị Hồng Gấm", 
+                                      "	Đường Phước Thạnh A8", "Đường Nguyễn Hữu Huân ", "Đường Điện Biên Phủ", "Đường Phạm Văn Đồng"])
+            
+        elif selected_value =="Huyện Long Điền":   
+            self.comboBox_3.addItems(["Chọn Đường Phố", "Nguyễn Chí Thanh",
+                                        "Nguyễn Văn Trỗi",
+                                        "Những trục đường trong khi Trung tâm thương mại",
+                                        "Phùng Hưng",
+                                        "Trần Hưng Đạo",
+                                        "Trần Quốc Toàn",])
+            
+        elif selected_value =="Huyện Xuyên Lộc":   
+            self.comboBox_3.addItems(["Chọn Đường Phố", "Nguyễn Chí Thanh",
+                                        "Nguyễn Văn Trỗi",
+                                        "Những trục đường trong khi Trung tâm thương mại",
+                                        "Phùng Hưng",
+                                        "Trần Hưng Đạo",
+                                        "Trần Quốc Toàn",])
+            
+        elif selected_value =="Huyện CÔn Đảo" :   
+            self.comboBox_3.addItems(["Chọn Đường Phố", "Nguyễn Chí Thanh",
+                                        "Nguyễn Văn Trỗi",
+                                        "Những trục đường trong khi Trung tâm thương mại",
+                                        "Phùng Hưng",
+                                        "Trần Hưng Đạo",
+                                        "Trần Quốc Toàn",])
+            
+            
+            
     
+                    
+                            
+            
+            
     
     
     def extract_bedrooms(self, bedroom_str):
